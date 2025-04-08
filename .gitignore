@@ -1,0 +1,13 @@
+# Python stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.idea/
+.env
+**/backup/
+**/test.py
+
+# VSCode settings
+.vscode/

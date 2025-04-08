@@ -1,0 +1,3002 @@
+[
+  {
+    "meterValue": 1375.56,
+    "date": "2024-02-17",
+    "zipcode": "91214",
+    "timestamp": 1708156800.0,
+    "coordinate": [
+      34.2437922136,
+      -118.2602094146
+    ],
+    "uuid": "33015ac4-fbca-42f9-ab2a-3edd81769e1f",
+    "serialNumber": "2005993218"
+  },
+  {
+    "meterValue": 4337.18,
+    "date": "2024-06-24",
+    "zipcode": "91214",
+    "timestamp": 1719212400.0,
+    "coordinate": [
+      34.2367516755,
+      -118.2374021576
+    ],
+    "uuid": "256f9a43-f7fc-4ddd-b8c4-d15e75e1bf2e",
+    "serialNumber": "4836013736"
+  },
+  {
+    "meterValue": 6465.58,
+    "date": "2024-08-12",
+    "zipcode": "91214",
+    "timestamp": 1723446000.0,
+    "coordinate": [
+      34.2667403076,
+      -118.2464873031
+    ],
+    "uuid": "ac4322bc-85bb-4a20-9781-6e9234468a1b",
+    "serialNumber": "207634317"
+  },
+  {
+    "meterValue": 3754.24,
+    "date": "2024-05-06",
+    "zipcode": "91011",
+    "timestamp": 1714978800.0,
+    "coordinate": [
+      34.2625105722,
+      -118.234632047
+    ],
+    "uuid": "2fa9abc9-563f-449f-aa8c-1e559f3363da",
+    "serialNumber": "4873006570"
+  },
+  {
+    "meterValue": 5452.46,
+    "date": "2024-05-29",
+    "zipcode": "91208",
+    "timestamp": 1716966000.0,
+    "coordinate": [
+      34.2123889037,
+      -118.2471832177
+    ],
+    "uuid": "3af67a2c-6ed0-4d3b-811f-35df9f4e0771",
+    "serialNumber": "3360821092"
+  },
+  {
+    "meterValue": 2300.95,
+    "date": "2024-02-01",
+    "zipcode": "91214",
+    "timestamp": 1706774400.0,
+    "coordinate": [
+      34.2349209231,
+      -118.2518265721
+    ],
+    "uuid": "8cb54be7-f406-4e1f-aa3c-f0690b504ea0",
+    "serialNumber": "5241934656"
+  },
+  {
+    "meterValue": 5187.58,
+    "date": "2024-06-24",
+    "zipcode": "91214",
+    "timestamp": 1719212400.0,
+    "coordinate": [
+      34.2261722917,
+      -118.2370708337
+    ],
+    "uuid": "b2977ddd-3326-4c77-a846-db4cf1741913",
+    "serialNumber": "2064379542"
+  },
+  {
+    "meterValue": 5309.42,
+    "date": "2024-02-29",
+    "zipcode": "91208",
+    "timestamp": 1709193600.0,
+    "coordinate": [
+      34.2001559731,
+      -118.2525900268
+    ],
+    "uuid": "b0ced3ec-f714-4a33-b3b7-b65deb40c201",
+    "serialNumber": "1824773589"
+  },
+  {
+    "meterValue": 6115.14,
+    "date": "2024-05-25",
+    "zipcode": "91214",
+    "timestamp": 1716620400.0,
+    "coordinate": [
+      34.2237659517,
+      -118.2447486474
+    ],
+    "uuid": "d1890fdc-63b4-48d3-ae5a-692181a4f17a",
+    "serialNumber": "9105545686"
+  },
+  {
+    "meterValue": 3733.08,
+    "date": "2024-01-22",
+    "zipcode": "91020",
+    "timestamp": 1705910400.0,
+    "coordinate": [
+      34.2131807557,
+      -118.2368165703
+    ],
+    "uuid": "6b91f96f-e8c9-481e-8ba1-9fa78ac6efba",
+    "serialNumber": "2354534742"
+  },
+  {
+    "meterValue": 3521.55,
+    "date": "2024-05-16",
+    "zipcode": "91011",
+    "timestamp": 1715842800.0,
+    "coordinate": [
+      34.1907190778,
+      -118.1801408368
+    ],
+    "uuid": "8dfd3878-f7cb-4875-bb7b-419910281102",
+    "serialNumber": "7097455671"
+  },
+  {
+    "meterValue": 6176.25,
+    "date": "2024-02-24",
+    "zipcode": "91208",
+    "timestamp": 1708761600.0,
+    "coordinate": [
+      34.2086249611,
+      -118.2695399716
+    ],
+    "uuid": "96f0c4a7-b3bb-4903-8d08-f6432c1381d2",
+    "serialNumber": "7448254418"
+  },
+  {
+    "meterValue": 3580.17,
+    "date": "2024-01-08",
+    "zipcode": "91011",
+    "timestamp": 1704700800.0,
+    "coordinate": [
+      34.1858496044,
+      -118.1868702422
+    ],
+    "uuid": "fefeaf67-7a4e-4cc1-b6f9-e3ba8121fe21",
+    "serialNumber": "6156905437"
+  },
+  {
+    "meterValue": 6428.45,
+    "date": "2024-07-02",
+    "zipcode": "91011",
+    "timestamp": 1719903600.0,
+    "coordinate": [
+      34.2600994691,
+      -118.2049312722
+    ],
+    "uuid": "30f56fe2-797a-40aa-aed9-9b4f08b835f0",
+    "serialNumber": "7486961722"
+  },
+  {
+    "meterValue": 4554.43,
+    "date": "2024-11-26",
+    "zipcode": "91214",
+    "timestamp": 1732608000.0,
+    "coordinate": [
+      34.2348652613,
+      -118.2637336083
+    ],
+    "uuid": "4b96b9a1-fbcc-4f3f-912e-89d53b9df125",
+    "serialNumber": "3024770481"
+  },
+  {
+    "meterValue": 3846.16,
+    "date": "2024-04-23",
+    "zipcode": "91214",
+    "timestamp": 1713855600.0,
+    "coordinate": [
+      34.2509473962,
+      -118.2505999938
+    ],
+    "uuid": "01bee5a0-6dc1-4848-9744-3766257d4ad5",
+    "serialNumber": "8537716088"
+  },
+  {
+    "meterValue": 1732.03,
+    "date": "2024-08-12",
+    "zipcode": "91214",
+    "timestamp": 1723446000.0,
+    "coordinate": [
+      34.2182357368,
+      -118.2395853742
+    ],
+    "uuid": "0538d84b-d302-441c-b6f3-ca2c81ce643e",
+    "serialNumber": "4492611461"
+  },
+  {
+    "meterValue": 1874.44,
+    "date": "2024-02-06",
+    "zipcode": "91011",
+    "timestamp": 1707206400.0,
+    "coordinate": [
+      34.1940540305,
+      -118.1994476809
+    ],
+    "uuid": "65bd5530-b015-4ae2-9b33-0c351dbdb3f2",
+    "serialNumber": "4771766408"
+  },
+  {
+    "meterValue": 5676.11,
+    "date": "2024-02-08",
+    "zipcode": "91208",
+    "timestamp": 1707379200.0,
+    "coordinate": [
+      34.1875643636,
+      -118.2161735089
+    ],
+    "uuid": "994e04a5-4647-4ba2-a5f2-ac26b2dcffd6",
+    "serialNumber": "7554969666"
+  },
+  {
+    "meterValue": 7032.65,
+    "date": "2024-03-26",
+    "zipcode": "91214",
+    "timestamp": 1711436400.0,
+    "coordinate": [
+      34.2485408613,
+      -118.2422088723
+    ],
+    "uuid": "f208925b-109f-47c0-824d-2e8407fc9b2b",
+    "serialNumber": "1256795655"
+  },
+  {
+    "meterValue": 1623.34,
+    "date": "2024-11-26",
+    "zipcode": "91011",
+    "timestamp": 1732608000.0,
+    "coordinate": [
+      34.230074271,
+      -118.2001574574
+    ],
+    "uuid": "b6ea154a-89a3-49c7-bc40-6de3f74cff55",
+    "serialNumber": "6292540342"
+  },
+  {
+    "meterValue": 6926.37,
+    "date": "2024-04-01",
+    "zipcode": "91011",
+    "timestamp": 1711954800.0,
+    "coordinate": [
+      34.2618092209,
+      -118.2372056849
+    ],
+    "uuid": "ae9cfc32-f320-4f6c-a6d7-eff931dd5d82",
+    "serialNumber": "7202153602"
+  },
+  {
+    "meterValue": 1203.49,
+    "date": "2024-05-03",
+    "zipcode": "91011",
+    "timestamp": 1714719600.0,
+    "coordinate": [
+      34.1958047631,
+      -118.1962875686
+    ],
+    "uuid": "edb08f11-99fe-4d12-9cbe-43f8cefba59d",
+    "serialNumber": "3585257674"
+  },
+  {
+    "meterValue": 3287.85,
+    "date": "2024-06-12",
+    "zipcode": "91011",
+    "timestamp": 1718175600.0,
+    "coordinate": [
+      34.2640750865,
+      -118.2145387572
+    ],
+    "uuid": "b7823ad0-8fb0-4f17-b029-98ca533d2ed0",
+    "serialNumber": "5987444540"
+  },
+  {
+    "meterValue": 5193.58,
+    "date": "2024-10-28",
+    "zipcode": "91011",
+    "timestamp": 1730098800.0,
+    "coordinate": [
+      34.2482786953,
+      -118.2059917046
+    ],
+    "uuid": "4360f1ce-6de6-4032-92be-048a37d5aeff",
+    "serialNumber": "3634006380"
+  },
+  {
+    "meterValue": 5947.32,
+    "date": "2024-05-31",
+    "zipcode": "91214",
+    "timestamp": 1717138800.0,
+    "coordinate": [
+      34.2451984002,
+      -118.2362132807
+    ],
+    "uuid": "bb21cb41-ce24-456f-8cf0-30d55f7a268b",
+    "serialNumber": "3839689317"
+  },
+  {
+    "meterValue": 2030.82,
+    "date": "2024-05-10",
+    "zipcode": "91214",
+    "timestamp": 1715324400.0,
+    "coordinate": [
+      34.2516465473,
+      -118.2631553748
+    ],
+    "uuid": "458c9fd8-51ee-4aff-97c2-e126ad90be05",
+    "serialNumber": "338155508"
+  },
+  {
+    "meterValue": 4336.67,
+    "date": "2024-10-17",
+    "zipcode": "91214",
+    "timestamp": 1729148400.0,
+    "coordinate": [
+      34.2412060941,
+      -118.2373792968
+    ],
+    "uuid": "71ca4dad-11ff-4755-ad3f-721d8d115a5d",
+    "serialNumber": "4392529298"
+  },
+  {
+    "meterValue": 3529.72,
+    "date": "2024-08-29",
+    "zipcode": "91214",
+    "timestamp": 1724914800.0,
+    "coordinate": [
+      34.2267747592,
+      -118.2607276668
+    ],
+    "uuid": "785fa395-cbed-4b0a-9108-183ea477d852",
+    "serialNumber": "2490667971"
+  },
+  {
+    "meterValue": 1389.03,
+    "date": "2024-11-03",
+    "zipcode": "91214",
+    "timestamp": 1730617200.0,
+    "coordinate": [
+      34.2184657523,
+      -118.2823681381
+    ],
+    "uuid": "97d39e92-3b8e-41ca-b39c-615e525d1dbf",
+    "serialNumber": "2991444110"
+  },
+  {
+    "meterValue": 3580.74,
+    "date": "2024-03-01",
+    "zipcode": "91208",
+    "timestamp": 1709280000.0,
+    "coordinate": [
+      34.2098536395,
+      -118.2622064736
+    ],
+    "uuid": "874a2b9e-190d-438a-b823-b4daa05dada2",
+    "serialNumber": "8273877641"
+  },
+  {
+    "meterValue": 1066.29,
+    "date": "2024-02-06",
+    "zipcode": "91011",
+    "timestamp": 1707206400.0,
+    "coordinate": [
+      34.2014555951,
+      -118.2111483019
+    ],
+    "uuid": "52b053ee-9bae-43f0-ade1-f4b97566dfdc",
+    "serialNumber": "3599324818"
+  },
+  {
+    "meterValue": 5936.58,
+    "date": "2024-10-14",
+    "zipcode": "91214",
+    "timestamp": 1728889200.0,
+    "coordinate": [
+      34.2206332281,
+      -118.2323923903
+    ],
+    "uuid": "de7f751a-62d4-4eb0-95a3-b1f2d2a981e5",
+    "serialNumber": "5631683136"
+  },
+  {
+    "meterValue": 5277.7,
+    "date": "2024-08-02",
+    "zipcode": "91011",
+    "timestamp": 1722582000.0,
+    "coordinate": [
+      34.2135527913,
+      -118.1797432888
+    ],
+    "uuid": "4b4f05c0-d9c2-44b4-975d-96c98a311553",
+    "serialNumber": "7876523225"
+  },
+  {
+    "meterValue": 1256.9,
+    "date": "2024-08-25",
+    "zipcode": "91011",
+    "timestamp": 1724569200.0,
+    "coordinate": [
+      34.2051899169,
+      -118.2070881331
+    ],
+    "uuid": "9f9a02ba-c739-4351-a7a6-c04395594aa0",
+    "serialNumber": "8163306113"
+  },
+  {
+    "meterValue": 2868.55,
+    "date": "2024-05-15",
+    "zipcode": "91011",
+    "timestamp": 1715756400.0,
+    "coordinate": [
+      34.267003454,
+      -118.2339029806
+    ],
+    "uuid": "f6cf4d7d-66d7-415b-8151-4fe36d06e90e",
+    "serialNumber": "8647670103"
+  },
+  {
+    "meterValue": 3064.58,
+    "date": "2024-03-17",
+    "zipcode": "91208",
+    "timestamp": 1710658800.0,
+    "coordinate": [
+      34.1849632526,
+      -118.2379280432
+    ],
+    "uuid": "ad820fe2-5a40-4636-8f50-7d136a45d698",
+    "serialNumber": "9964031073"
+  },
+  {
+    "meterValue": 7763.46,
+    "date": "2024-03-10",
+    "zipcode": "91208",
+    "timestamp": 1710057600.0,
+    "coordinate": [
+      34.1869234635,
+      -118.2142224434
+    ],
+    "uuid": "d8bb8b9d-3c64-4ccf-bf4e-3e498165d584",
+    "serialNumber": "9734971126"
+  },
+  {
+    "meterValue": 6143.96,
+    "date": "2024-03-18",
+    "zipcode": "91208",
+    "timestamp": 1710745200.0,
+    "coordinate": [
+      34.1790880844,
+      -118.2406530981
+    ],
+    "uuid": "e5aba98c-340d-4245-97c7-e0ec1df1306c",
+    "serialNumber": "775941339"
+  },
+  {
+    "meterValue": 4784.74,
+    "date": "2024-04-18",
+    "zipcode": "91208",
+    "timestamp": 1713423600.0,
+    "coordinate": [
+      34.179622417,
+      -118.2244894528
+    ],
+    "uuid": "37e0b38d-3d86-45f7-a00f-d1ebbf83c499",
+    "serialNumber": "2105587486"
+  },
+  {
+    "meterValue": 3025.29,
+    "date": "2024-11-18",
+    "zipcode": "91208",
+    "timestamp": 1731916800.0,
+    "coordinate": [
+      34.166952349,
+      -118.2178491307
+    ],
+    "uuid": "e86c3847-fb27-4c18-9048-024a1baa3c8a",
+    "serialNumber": "2688228775"
+  },
+  {
+    "meterValue": 2985.6,
+    "date": "2024-07-01",
+    "zipcode": "91011",
+    "timestamp": 1719817200.0,
+    "coordinate": [
+      34.254158005,
+      -118.2305532633
+    ],
+    "uuid": "6b556bcc-1cf6-4409-ba4f-6967d04bc01b",
+    "serialNumber": "5572451254"
+  },
+  {
+    "meterValue": 2358.54,
+    "date": "2024-09-29",
+    "zipcode": "91214",
+    "timestamp": 1727593200.0,
+    "coordinate": [
+      34.2196804946,
+      -118.2754929961
+    ],
+    "uuid": "663915df-275e-4eeb-b1f5-9473a3b1aee6",
+    "serialNumber": "7668931354"
+  },
+  {
+    "meterValue": 4475.73,
+    "date": "2024-01-11",
+    "zipcode": "91011",
+    "timestamp": 1704960000.0,
+    "coordinate": [
+      34.2025586071,
+      -118.1775970815
+    ],
+    "uuid": "33e05ade-6297-476b-9d10-e8f57e89e228",
+    "serialNumber": "7614284186"
+  },
+  {
+    "meterValue": 6354.48,
+    "date": "2024-07-18",
+    "zipcode": "91011",
+    "timestamp": 1721286000.0,
+    "coordinate": [
+      34.2240379678,
+      -118.193921033
+    ],
+    "uuid": "4744c8d8-3ba0-4fbd-8bbb-5e52f18ed9e4",
+    "serialNumber": "6414742662"
+  },
+  {
+    "meterValue": 6919.94,
+    "date": "2024-07-06",
+    "zipcode": "91011",
+    "timestamp": 1720249200.0,
+    "coordinate": [
+      34.2126376258,
+      -118.2060728051
+    ],
+    "uuid": "6a77b7e1-34a2-4e4d-b09b-1fb8f18800df",
+    "serialNumber": "1241014855"
+  },
+  {
+    "meterValue": 3620.61,
+    "date": "2024-03-02",
+    "zipcode": "91011",
+    "timestamp": 1709366400.0,
+    "coordinate": [
+      34.2670036214,
+      -118.2383888031
+    ],
+    "uuid": "10036a1c-8f8f-49d9-8393-2fffbb780b1e",
+    "serialNumber": "173343343"
+  },
+  {
+    "meterValue": 5452.42,
+    "date": "2024-01-24",
+    "zipcode": "91208",
+    "timestamp": 1706083200.0,
+    "coordinate": [
+      34.1891883186,
+      -118.2443368924
+    ],
+    "uuid": "64a2af9f-b993-457f-bbb0-f7b0760d58fd",
+    "serialNumber": "5783319223"
+  },
+  {
+    "meterValue": 2839.03,
+    "date": "2024-07-08",
+    "zipcode": "91011",
+    "timestamp": 1720422000.0,
+    "coordinate": [
+      34.1982688384,
+      -118.1757577455
+    ],
+    "uuid": "26791b57-724b-4417-b407-9ac48984056d",
+    "serialNumber": "6971529328"
+  },
+  {
+    "meterValue": 4427.71,
+    "date": "2024-06-06",
+    "zipcode": "91208",
+    "timestamp": 1717657200.0,
+    "coordinate": [
+      34.1845485172,
+      -118.2198742183
+    ],
+    "uuid": "3654575f-fbd1-4366-9b49-29af09b91d2b",
+    "serialNumber": "9857641966"
+  },
+  {
+    "meterValue": 2616.28,
+    "date": "2024-10-22",
+    "zipcode": "91208",
+    "timestamp": 1729580400.0,
+    "coordinate": [
+      34.2092514027,
+      -118.2490345285
+    ],
+    "uuid": "5bc5df65-5891-4af0-9aa1-9f61fdd41730",
+    "serialNumber": "1210900841"
+  },
+  {
+    "meterValue": 6427.31,
+    "date": "2024-09-06",
+    "zipcode": "91011",
+    "timestamp": 1725606000.0,
+    "coordinate": [
+      34.2263008029,
+      -118.2185638139
+    ],
+    "uuid": "180bed33-4bb4-44b2-bba8-ce759b681635",
+    "serialNumber": "5524597999"
+  },
+  {
+    "meterValue": 6305.97,
+    "date": "2024-12-02",
+    "zipcode": "91011",
+    "timestamp": 1733126400.0,
+    "coordinate": [
+      34.2272459789,
+      -118.2049956868
+    ],
+    "uuid": "dc97a1e8-9757-430e-90f5-acc724f40332",
+    "serialNumber": "3695962184"
+  },
+  {
+    "meterValue": 7284.33,
+    "date": "2024-12-22",
+    "zipcode": "91011",
+    "timestamp": 1734854400.0,
+    "coordinate": [
+      34.2225515114,
+      -118.2127819559
+    ],
+    "uuid": "6764da6f-9e05-4a98-836a-feaedc1b87fc",
+    "serialNumber": "5361586447"
+  },
+  {
+    "meterValue": 2229.07,
+    "date": "2024-04-14",
+    "zipcode": "91214",
+    "timestamp": 1713078000.0,
+    "coordinate": [
+      34.2530031634,
+      -118.2552277547
+    ],
+    "uuid": "31423f56-8aad-4f87-bb53-98c4653b4ca4",
+    "serialNumber": "1195968162"
+  },
+  {
+    "meterValue": 6231.43,
+    "date": "2024-03-07",
+    "zipcode": "91214",
+    "timestamp": 1709798400.0,
+    "coordinate": [
+      34.235181018,
+      -118.2461800804
+    ],
+    "uuid": "95c7d130-3210-4346-ae0c-82e7f11186dd",
+    "serialNumber": "3588942078"
+  },
+  {
+    "meterValue": 3939.23,
+    "date": "2024-12-23",
+    "zipcode": "91011",
+    "timestamp": 1734940800.0,
+    "coordinate": [
+      34.262170884,
+      -118.2072901046
+    ],
+    "uuid": "b4bdc768-df59-44e4-bf9d-4adcb4280b35",
+    "serialNumber": "4232492773"
+  },
+  {
+    "meterValue": 4959.79,
+    "date": "2024-11-22",
+    "zipcode": "91011",
+    "timestamp": 1732262400.0,
+    "coordinate": [
+      34.2032834835,
+      -118.1904134643
+    ],
+    "uuid": "32b2875d-8ea5-4027-b1f5-69c67bf7dd5c",
+    "serialNumber": "7876410844"
+  },
+  {
+    "meterValue": 6991.6,
+    "date": "2024-08-10",
+    "zipcode": "91011",
+    "timestamp": 1723273200.0,
+    "coordinate": [
+      34.2054943149,
+      -118.1991279926
+    ],
+    "uuid": "a56f6717-a198-4d8c-9dc9-ed9da1b36ca3",
+    "serialNumber": "931119897"
+  },
+  {
+    "meterValue": 1925.7,
+    "date": "2024-01-26",
+    "zipcode": "91011",
+    "timestamp": 1706256000.0,
+    "coordinate": [
+      34.1824389817,
+      -118.1782208094
+    ],
+    "uuid": "46d1eaa5-2548-425f-bffe-5f25879ba4f2",
+    "serialNumber": "8316435837"
+  },
+  {
+    "meterValue": 3811.73,
+    "date": "2024-07-11",
+    "zipcode": "91214",
+    "timestamp": 1720681200.0,
+    "coordinate": [
+      34.240863941,
+      -118.2657496298
+    ],
+    "uuid": "6d832f86-68bb-4412-be07-344a1b89d40b",
+    "serialNumber": "2990496572"
+  },
+  {
+    "meterValue": 3560.22,
+    "date": "2024-10-29",
+    "zipcode": "91011",
+    "timestamp": 1730185200.0,
+    "coordinate": [
+      34.2045616242,
+      -118.201118374
+    ],
+    "uuid": "b0945a36-52ce-46d5-bd2b-d3fa24a2780a",
+    "serialNumber": "4485657912"
+  },
+  {
+    "meterValue": 1748.98,
+    "date": "2024-09-30",
+    "zipcode": "91214",
+    "timestamp": 1727679600.0,
+    "coordinate": [
+      34.2305055868,
+      -118.2348337276
+    ],
+    "uuid": "eb32df5a-68ea-41bc-b930-1908a3622af9",
+    "serialNumber": "20540492"
+  },
+  {
+    "meterValue": 5423.9,
+    "date": "2024-07-05",
+    "zipcode": "91011",
+    "timestamp": 1720162800.0,
+    "coordinate": [
+      34.2099832293,
+      -118.178351006
+    ],
+    "uuid": "2196037f-95f8-464e-9fde-a59d0cf558d2",
+    "serialNumber": "246057398"
+  },
+  {
+    "meterValue": 6337.93,
+    "date": "2024-06-02",
+    "zipcode": "91214",
+    "timestamp": 1717311600.0,
+    "coordinate": [
+      34.2637746352,
+      -118.2522656354
+    ],
+    "uuid": "872c73dc-353a-4674-8f69-fa6441e6ff08",
+    "serialNumber": "7861266097"
+  },
+  {
+    "meterValue": 4691.06,
+    "date": "2024-07-20",
+    "zipcode": "91208",
+    "timestamp": 1721458800.0,
+    "coordinate": [
+      34.1976692326,
+      -118.2213485866
+    ],
+    "uuid": "be5f90ef-066f-41c6-a0a9-f7b587a99f9d",
+    "serialNumber": "4737636996"
+  },
+  {
+    "meterValue": 7905.83,
+    "date": "2024-01-21",
+    "zipcode": "91011",
+    "timestamp": 1705824000.0,
+    "coordinate": [
+      34.2109154433,
+      -118.2114285283
+    ],
+    "uuid": "4d19ca48-324f-4f87-8138-8bb76717aab3",
+    "serialNumber": "7343905816"
+  },
+  {
+    "meterValue": 5868.41,
+    "date": "2024-11-09",
+    "zipcode": "91208",
+    "timestamp": 1731139200.0,
+    "coordinate": [
+      34.2112192742,
+      -118.254353756
+    ],
+    "uuid": "27be0d8a-a7ec-4997-8d3c-228620c67869",
+    "serialNumber": "4662713898"
+  },
+  {
+    "meterValue": 2186.13,
+    "date": "2024-09-12",
+    "zipcode": "91208",
+    "timestamp": 1726124400.0,
+    "coordinate": [
+      34.1631985626,
+      -118.2124743856
+    ],
+    "uuid": "9ebaa2cc-0684-43d9-bd68-50eb8fb6c6a4",
+    "serialNumber": "9669242894"
+  },
+  {
+    "meterValue": 4633.07,
+    "date": "2024-10-06",
+    "zipcode": "91208",
+    "timestamp": 1728198000.0,
+    "coordinate": [
+      34.202843605,
+      -118.2340448138
+    ],
+    "uuid": "f4ed6613-a6dc-4ce8-bf05-c2065471eeb8",
+    "serialNumber": "1125680130"
+  },
+  {
+    "meterValue": 5075.79,
+    "date": "2024-09-04",
+    "zipcode": "91208",
+    "timestamp": 1725433200.0,
+    "coordinate": [
+      34.205540875,
+      -118.2666973173
+    ],
+    "uuid": "f162e23b-9a39-4c1f-a710-6991f4c8d32e",
+    "serialNumber": "2061056286"
+  },
+  {
+    "meterValue": 3691.66,
+    "date": "2024-05-14",
+    "zipcode": "91208",
+    "timestamp": 1715670000.0,
+    "coordinate": [
+      34.1919905659,
+      -118.2346265885
+    ],
+    "uuid": "3a67c3dc-9d8e-4c88-8720-2cbc5784acab",
+    "serialNumber": "9620747941"
+  },
+  {
+    "meterValue": 3824.45,
+    "date": "2024-03-18",
+    "zipcode": "91011",
+    "timestamp": 1710745200.0,
+    "coordinate": [
+      34.1931053949,
+      -118.1832396831
+    ],
+    "uuid": "163034fc-053a-4fe3-91ed-0679eecacb64",
+    "serialNumber": "9394584154"
+  },
+  {
+    "meterValue": 2085.53,
+    "date": "2024-08-12",
+    "zipcode": "91208",
+    "timestamp": 1723446000.0,
+    "coordinate": [
+      34.182018895,
+      -118.2134037176
+    ],
+    "uuid": "9450cfd6-8d4f-482f-b879-73935621f00a",
+    "serialNumber": "3536613152"
+  },
+  {
+    "meterValue": 6347.92,
+    "date": "2024-12-13",
+    "zipcode": "91208",
+    "timestamp": 1734076800.0,
+    "coordinate": [
+      34.1812500898,
+      -118.2362158851
+    ],
+    "uuid": "1a62dcb9-1fcb-4f0d-bdbc-7bf84eda531b",
+    "serialNumber": "7284663663"
+  },
+  {
+    "meterValue": 1245.52,
+    "date": "2024-07-07",
+    "zipcode": "91011",
+    "timestamp": 1720335600.0,
+    "coordinate": [
+      34.2015198409,
+      -118.1766061873
+    ],
+    "uuid": "e6025ea0-9f23-4bdc-87dd-4738ba6d97f5",
+    "serialNumber": "7595364401"
+  },
+  {
+    "meterValue": 5473.93,
+    "date": "2024-04-09",
+    "zipcode": "91011",
+    "timestamp": 1712646000.0,
+    "coordinate": [
+      34.235155952,
+      -118.2060881733
+    ],
+    "uuid": "e2ddf9f5-ec1b-4ebb-a164-ca9647a86662",
+    "serialNumber": "6829525398"
+  },
+  {
+    "meterValue": 7634.68,
+    "date": "2024-06-07",
+    "zipcode": "91011",
+    "timestamp": 1717743600.0,
+    "coordinate": [
+      34.2653587231,
+      -118.2084866259
+    ],
+    "uuid": "92fc7f14-d9f8-42ae-9b68-f9b75962e5da",
+    "serialNumber": "2144981426"
+  },
+  {
+    "meterValue": 5423.71,
+    "date": "2024-08-06",
+    "zipcode": "91214",
+    "timestamp": 1722927600.0,
+    "coordinate": [
+      34.2197623416,
+      -118.2448320354
+    ],
+    "uuid": "f720bdf3-dd83-4dd2-ac29-55a72570c4a7",
+    "serialNumber": "1531179695"
+  },
+  {
+    "meterValue": 1273.32,
+    "date": "2024-12-18",
+    "zipcode": "91011",
+    "timestamp": 1734508800.0,
+    "coordinate": [
+      34.2204927908,
+      -118.2038749371
+    ],
+    "uuid": "92f93511-9ced-4891-af6d-4664eef309cd",
+    "serialNumber": "2680096209"
+  },
+  {
+    "meterValue": 2474.45,
+    "date": "2024-05-31",
+    "zipcode": "91011",
+    "timestamp": 1717138800.0,
+    "coordinate": [
+      34.2630898909,
+      -118.2191883038
+    ],
+    "uuid": "e968d5fb-eafe-4ab5-990d-22d971f41b27",
+    "serialNumber": "3292141584"
+  },
+  {
+    "meterValue": 4606.41,
+    "date": "2024-08-17",
+    "zipcode": "91214",
+    "timestamp": 1723878000.0,
+    "coordinate": [
+      34.2131244268,
+      -118.2754713454
+    ],
+    "uuid": "0aa4d27d-95a4-490d-bd60-9b3058aef83f",
+    "serialNumber": "6013135451"
+  },
+  {
+    "meterValue": 3695.54,
+    "date": "2024-07-19",
+    "zipcode": "91011",
+    "timestamp": 1721372400.0,
+    "coordinate": [
+      34.1981015474,
+      -118.1893317848
+    ],
+    "uuid": "fbbfe338-46a0-4b23-b9a5-49ecc499077a",
+    "serialNumber": "1467007280"
+  },
+  {
+    "meterValue": 4003.93,
+    "date": "2024-11-19",
+    "zipcode": "91011",
+    "timestamp": 1732003200.0,
+    "coordinate": [
+      34.2523764101,
+      -118.2218307743
+    ],
+    "uuid": "160fdee6-d71b-4be9-b2cd-85f82b3c803c",
+    "serialNumber": "408685018"
+  },
+  {
+    "meterValue": 5394.35,
+    "date": "2024-02-07",
+    "zipcode": "91214",
+    "timestamp": 1707292800.0,
+    "coordinate": [
+      34.2467032038,
+      -118.2297292488
+    ],
+    "uuid": "4562c40c-215e-4e08-8bfc-e72ce617f086",
+    "serialNumber": "7115410061"
+  },
+  {
+    "meterValue": 4788.98,
+    "date": "2024-09-26",
+    "zipcode": "91208",
+    "timestamp": 1727334000.0,
+    "coordinate": [
+      34.166833922,
+      -118.2123289112
+    ],
+    "uuid": "8388604a-1362-48d8-877f-9544ab58771f",
+    "serialNumber": "8474989824"
+  },
+  {
+    "meterValue": 5054.11,
+    "date": "2024-03-19",
+    "zipcode": "91214",
+    "timestamp": 1710831600.0,
+    "coordinate": [
+      34.2362803097,
+      -118.238027322
+    ],
+    "uuid": "43be87af-e74b-49de-8d9e-fb3903236858",
+    "serialNumber": "9567464049"
+  },
+  {
+    "meterValue": 2047.63,
+    "date": "2024-01-30",
+    "zipcode": "91011",
+    "timestamp": 1706601600.0,
+    "coordinate": [
+      34.2059152039,
+      -118.2058176011
+    ],
+    "uuid": "3af17c34-2a4e-4959-9f65-79f24e79ff28",
+    "serialNumber": "7918555998"
+  },
+  {
+    "meterValue": 5802.21,
+    "date": "2024-09-16",
+    "zipcode": "91208",
+    "timestamp": 1726470000.0,
+    "coordinate": [
+      34.1953976166,
+      -118.2147263108
+    ],
+    "uuid": "27c9121b-24e9-431a-92f6-a5a817326bda",
+    "serialNumber": "4681165467"
+  },
+  {
+    "meterValue": 5818.48,
+    "date": "2024-06-24",
+    "zipcode": "91214",
+    "timestamp": 1719212400.0,
+    "coordinate": [
+      34.2121894337,
+      -118.2448113355
+    ],
+    "uuid": "71bb8ea4-569d-4196-95c6-b7cea0b3b383",
+    "serialNumber": "8533104606"
+  },
+  {
+    "meterValue": 4735.05,
+    "date": "2024-01-17",
+    "zipcode": "91208",
+    "timestamp": 1705478400.0,
+    "coordinate": [
+      34.1863739419,
+      -118.245704676
+    ],
+    "uuid": "3e7f3a54-647c-4e58-ae98-52533a4e3b5c",
+    "serialNumber": "7026544044"
+  },
+  {
+    "meterValue": 1326.64,
+    "date": "2024-08-01",
+    "zipcode": "91214",
+    "timestamp": 1722495600.0,
+    "coordinate": [
+      34.2202125402,
+      -118.2721018571
+    ],
+    "uuid": "c3bb3578-7ef4-42e0-b49d-a51fe0a0f066",
+    "serialNumber": "7234014894"
+  },
+  {
+    "meterValue": 3748.73,
+    "date": "2024-10-04",
+    "zipcode": "91011",
+    "timestamp": 1728025200.0,
+    "coordinate": [
+      34.2332025594,
+      -118.2053104698
+    ],
+    "uuid": "2bd266ac-0559-455c-b49b-569b896de15e",
+    "serialNumber": "7497646126"
+  },
+  {
+    "meterValue": 1858.26,
+    "date": "2024-10-26",
+    "zipcode": "91214",
+    "timestamp": 1729926000.0,
+    "coordinate": [
+      34.2369658057,
+      -118.2435812022
+    ],
+    "uuid": "2c75bd13-d972-4054-b6c3-40a53d0d518a",
+    "serialNumber": "994162713"
+  },
+  {
+    "meterValue": 3285.44,
+    "date": "2024-12-18",
+    "zipcode": "91208",
+    "timestamp": 1734508800.0,
+    "coordinate": [
+      34.2135323235,
+      -118.2586234545
+    ],
+    "uuid": "e00db00d-8e9a-4300-8611-22cad8229b55",
+    "serialNumber": "9798890090"
+  },
+  {
+    "meterValue": 6784.44,
+    "date": "2024-10-24",
+    "zipcode": "91214",
+    "timestamp": 1729753200.0,
+    "coordinate": [
+      34.2327202925,
+      -118.2712132422
+    ],
+    "uuid": "0c65b2b8-398d-4124-8297-e3eed89d9d18",
+    "serialNumber": "4226406684"
+  },
+  {
+    "meterValue": 5143.24,
+    "date": "2024-04-17",
+    "zipcode": "91011",
+    "timestamp": 1713337200.0,
+    "coordinate": [
+      34.1942649979,
+      -118.1886693959
+    ],
+    "uuid": "a0080df4-0d5e-4c82-8bcf-9066db574408",
+    "serialNumber": "9379427954"
+  },
+  {
+    "meterValue": 3006.76,
+    "date": "2024-01-03",
+    "zipcode": "91011",
+    "timestamp": 1704268800.0,
+    "coordinate": [
+      34.2537208798,
+      -118.2094652105
+    ],
+    "uuid": "70fc12f6-1d93-4fbb-b0e8-136fa1057c72",
+    "serialNumber": "5243383534"
+  },
+  {
+    "meterValue": 1093.86,
+    "date": "2024-09-18",
+    "zipcode": "91011",
+    "timestamp": 1726642800.0,
+    "coordinate": [
+      34.2192493469,
+      -118.1991990733
+    ],
+    "uuid": "42c999e7-2be6-46da-9a67-78ae935298b1",
+    "serialNumber": "219200092"
+  },
+  {
+    "meterValue": 1943.3,
+    "date": "2024-10-01",
+    "zipcode": "91011",
+    "timestamp": 1727766000.0,
+    "coordinate": [
+      34.2057375814,
+      -118.1909555862
+    ],
+    "uuid": "20b5e8e9-2cc5-492d-9a87-4f6bafbeb029",
+    "serialNumber": "8278547303"
+  },
+  {
+    "meterValue": 4736.19,
+    "date": "2024-07-01",
+    "zipcode": "91011",
+    "timestamp": 1719817200.0,
+    "coordinate": [
+      34.2335170697,
+      -118.2138126866
+    ],
+    "uuid": "b36c8c97-b539-43a0-9697-fdd29a2f89d0",
+    "serialNumber": "1591278718"
+  },
+  {
+    "meterValue": 3643.4,
+    "date": "2024-01-29",
+    "zipcode": "91011",
+    "timestamp": 1706515200.0,
+    "coordinate": [
+      34.257827372,
+      -118.230352047
+    ],
+    "uuid": "257c3186-ca12-4f09-a8fc-45a7f46a8091",
+    "serialNumber": "7200004140"
+  },
+  {
+    "meterValue": 3675.76,
+    "date": "2024-11-13",
+    "zipcode": "91208",
+    "timestamp": 1731484800.0,
+    "coordinate": [
+      34.166373957,
+      -118.2112577205
+    ],
+    "uuid": "f65d4838-8103-4aa7-90a4-d87e964e8980",
+    "serialNumber": "8538481594"
+  },
+  {
+    "meterValue": 6448.84,
+    "date": "2024-01-20",
+    "zipcode": "91011",
+    "timestamp": 1705737600.0,
+    "coordinate": [
+      34.2548521742,
+      -118.2133655225
+    ],
+    "uuid": "732cacfa-d464-417f-b86e-dcda04a8808a",
+    "serialNumber": "7253819527"
+  },
+  {
+    "meterValue": 4485.36,
+    "date": "2024-03-02",
+    "zipcode": "91214",
+    "timestamp": 1709366400.0,
+    "coordinate": [
+      34.2467822886,
+      -118.2484112906
+    ],
+    "uuid": "383b6f4f-926f-451d-8bd1-7300f0d3f84c",
+    "serialNumber": "4498767874"
+  },
+  {
+    "meterValue": 5441.01,
+    "date": "2024-01-08",
+    "zipcode": "91214",
+    "timestamp": 1704700800.0,
+    "coordinate": [
+      34.2207940286,
+      -118.2793099868
+    ],
+    "uuid": "58b25ef8-1894-42ed-884b-8df36c358ef8",
+    "serialNumber": "231426663"
+  },
+  {
+    "meterValue": 6826.6,
+    "date": "2024-03-19",
+    "zipcode": "91208",
+    "timestamp": 1710831600.0,
+    "coordinate": [
+      34.1821559441,
+      -118.2276661569
+    ],
+    "uuid": "77e801f1-9a68-4865-8a71-b4dafba8e47e",
+    "serialNumber": "37300952"
+  },
+  {
+    "meterValue": 6375.69,
+    "date": "2024-02-23",
+    "zipcode": "91214",
+    "timestamp": 1708675200.0,
+    "coordinate": [
+      34.2229577115,
+      -118.2543755684
+    ],
+    "uuid": "84d14189-da56-445c-8f95-408f290dc063",
+    "serialNumber": "1978482061"
+  },
+  {
+    "meterValue": 1477.3,
+    "date": "2024-12-07",
+    "zipcode": "91208",
+    "timestamp": 1733558400.0,
+    "coordinate": [
+      34.1765448017,
+      -118.2159555185
+    ],
+    "uuid": "ac078305-a400-4612-83dc-049c4367b607",
+    "serialNumber": "1149892474"
+  },
+  {
+    "meterValue": 4104.02,
+    "date": "2024-02-15",
+    "zipcode": "91214",
+    "timestamp": 1707984000.0,
+    "coordinate": [
+      34.2178750589,
+      -118.2773547967
+    ],
+    "uuid": "4d0bd132-a416-414f-bf30-2691ce721729",
+    "serialNumber": "9747703348"
+  },
+  {
+    "meterValue": 3111.39,
+    "date": "2024-04-07",
+    "zipcode": "91011",
+    "timestamp": 1712473200.0,
+    "coordinate": [
+      34.227786429,
+      -118.209828876
+    ],
+    "uuid": "15554d91-bd2d-442f-bec6-5e06e4b8d24d",
+    "serialNumber": "4215260375"
+  },
+  {
+    "meterValue": 7172.64,
+    "date": "2024-07-17",
+    "zipcode": "91214",
+    "timestamp": 1721199600.0,
+    "coordinate": [
+      34.2443065602,
+      -118.265952875
+    ],
+    "uuid": "eae93a77-d4ab-4d93-bd81-bea7cdf7a86c",
+    "serialNumber": "2696437502"
+  },
+  {
+    "meterValue": 5818.84,
+    "date": "2024-12-01",
+    "zipcode": "91011",
+    "timestamp": 1733040000.0,
+    "coordinate": [
+      34.1890685026,
+      -118.2029513821
+    ],
+    "uuid": "894c86ee-f057-46da-8c12-977a6e06749a",
+    "serialNumber": "5488730524"
+  },
+  {
+    "meterValue": 7140.5,
+    "date": "2024-07-22",
+    "zipcode": "91214",
+    "timestamp": 1721631600.0,
+    "coordinate": [
+      34.2484449451,
+      -118.262629842
+    ],
+    "uuid": "894860f3-fd28-49e3-9e6a-b5f4ba475071",
+    "serialNumber": "2560546027"
+  },
+  {
+    "meterValue": 6206.05,
+    "date": "2024-10-15",
+    "zipcode": "91214",
+    "timestamp": 1728975600.0,
+    "coordinate": [
+      34.2453213504,
+      -118.2482853089
+    ],
+    "uuid": "2a791533-8223-43a6-8693-fa27c6fc7f93",
+    "serialNumber": "2977261917"
+  },
+  {
+    "meterValue": 7300.34,
+    "date": "2024-03-12",
+    "zipcode": "91011",
+    "timestamp": 1710226800.0,
+    "coordinate": [
+      34.215232698,
+      -118.1837885625
+    ],
+    "uuid": "2abe31a6-959f-4b64-a86f-78f5722211e7",
+    "serialNumber": "449327752"
+  },
+  {
+    "meterValue": 3878.39,
+    "date": "2024-07-30",
+    "zipcode": "91011",
+    "timestamp": 1722322800.0,
+    "coordinate": [
+      34.2100313811,
+      -118.2201919704
+    ],
+    "uuid": "cfb7b57d-16f7-4173-b97b-86d11ef9595b",
+    "serialNumber": "5778375318"
+  },
+  {
+    "meterValue": 2903.39,
+    "date": "2024-07-27",
+    "zipcode": "91208",
+    "timestamp": 1722063600.0,
+    "coordinate": [
+      34.2028239527,
+      -118.2335438315
+    ],
+    "uuid": "ba0e41d2-12dd-45f7-bf2a-cf4bd96873ff",
+    "serialNumber": "9780639533"
+  },
+  {
+    "meterValue": 5284.64,
+    "date": "2024-04-14",
+    "zipcode": "91208",
+    "timestamp": 1713078000.0,
+    "coordinate": [
+      34.183051592300004,
+      -118.2424625095
+    ],
+    "uuid": "de8b0c12-bb34-4512-9983-7f486824d798",
+    "serialNumber": "3958562237"
+  },
+  {
+    "meterValue": 6511.06,
+    "date": "2024-10-24",
+    "zipcode": "91208",
+    "timestamp": 1729753200.0,
+    "coordinate": [
+      34.1909003594,
+      -118.2186978044
+    ],
+    "uuid": "c095e7e1-25b0-417a-ab01-e04544c6de20",
+    "serialNumber": "6012639240"
+  },
+  {
+    "meterValue": 1851.36,
+    "date": "2024-08-15",
+    "zipcode": "91208",
+    "timestamp": 1723705200.0,
+    "coordinate": [
+      34.1965501409,
+      -118.2435266669
+    ],
+    "uuid": "61a2f479-f4e8-4440-9857-f6dfc24a4202",
+    "serialNumber": "6867868678"
+  },
+  {
+    "meterValue": 5804.07,
+    "date": "2024-11-21",
+    "zipcode": "91011",
+    "timestamp": 1732176000.0,
+    "coordinate": [
+      34.2597848259,
+      -118.2286904953
+    ],
+    "uuid": "2896d78b-40f5-46ba-af37-17384c0c0941",
+    "serialNumber": "9585370431"
+  },
+  {
+    "meterValue": 6991.98,
+    "date": "2024-02-29",
+    "zipcode": "91214",
+    "timestamp": 1709193600.0,
+    "coordinate": [
+      34.2503201585,
+      -118.2660468491
+    ],
+    "uuid": "3fa257a9-f200-4a0d-beae-4ecace388d39",
+    "serialNumber": "4824764359"
+  },
+  {
+    "meterValue": 7118.62,
+    "date": "2024-06-02",
+    "zipcode": "91011",
+    "timestamp": 1717311600.0,
+    "coordinate": [
+      34.2317902301,
+      -118.1967178385
+    ],
+    "uuid": "aaf1446d-decd-4668-8e4f-bf0c15be4a5b",
+    "serialNumber": "773068476"
+  },
+  {
+    "meterValue": 4923.62,
+    "date": "2024-11-19",
+    "zipcode": "91011",
+    "timestamp": 1732003200.0,
+    "coordinate": [
+      34.2565079707,
+      -118.2163638338
+    ],
+    "uuid": "0c7c608c-b2da-4eed-992d-9ef8e7c6f321",
+    "serialNumber": "4162220464"
+  },
+  {
+    "meterValue": 3386.54,
+    "date": "2024-11-28",
+    "zipcode": "91208",
+    "timestamp": 1732780800.0,
+    "coordinate": [
+      34.2059889082,
+      -118.2680610583
+    ],
+    "uuid": "17597a4f-5b56-4301-ae9a-424de83d8310",
+    "serialNumber": "9237464859"
+  },
+  {
+    "meterValue": 3571.27,
+    "date": "2024-11-07",
+    "zipcode": "91208",
+    "timestamp": 1730966400.0,
+    "coordinate": [
+      34.1949304391,
+      -118.2149383425
+    ],
+    "uuid": "1732eff7-c28d-44f8-ae18-a0b59fbaa836",
+    "serialNumber": "4262384858"
+  },
+  {
+    "meterValue": 2359.87,
+    "date": "2024-09-08",
+    "zipcode": "91011",
+    "timestamp": 1725778800.0,
+    "coordinate": [
+      34.1965085284,
+      -118.1978709919
+    ],
+    "uuid": "bbfb56eb-8958-4d1b-9b70-b66f1b7b6ba3",
+    "serialNumber": "1092818271"
+  },
+  {
+    "meterValue": 3139.11,
+    "date": "2024-01-13",
+    "zipcode": "91011",
+    "timestamp": 1705132800.0,
+    "coordinate": [
+      34.2346670466,
+      -118.2040903524
+    ],
+    "uuid": "322781ce-8014-430f-bfbc-9337bc268471",
+    "serialNumber": "5705609652"
+  },
+  {
+    "meterValue": 2152.06,
+    "date": "2024-07-17",
+    "zipcode": "91208",
+    "timestamp": 1721199600.0,
+    "coordinate": [
+      34.2103571118,
+      -118.2647792036
+    ],
+    "uuid": "a76912ed-f027-4c39-a962-7d4e61500c32",
+    "serialNumber": "3614152576"
+  },
+  {
+    "meterValue": 3105.1,
+    "date": "2024-08-20",
+    "zipcode": "91208",
+    "timestamp": 1724137200.0,
+    "coordinate": [
+      34.2000941095,
+      -118.235194711
+    ],
+    "uuid": "f9c37c89-4f90-49dc-a9e8-506cbbb43cac",
+    "serialNumber": "1742607656"
+  },
+  {
+    "meterValue": 3369.72,
+    "date": "2024-07-24",
+    "zipcode": "91208",
+    "timestamp": 1721804400.0,
+    "coordinate": [
+      34.1645934065,
+      -118.2138035409
+    ],
+    "uuid": "3006f7de-a2a3-4133-867a-6a39ff49602f",
+    "serialNumber": "3240931151"
+  },
+  {
+    "meterValue": 3364.04,
+    "date": "2024-07-08",
+    "zipcode": "91011",
+    "timestamp": 1720422000.0,
+    "coordinate": [
+      34.203135935,
+      -118.1912154897
+    ],
+    "uuid": "764587a5-05cc-4865-9e9c-d1b40b6d5398",
+    "serialNumber": "1693100353"
+  },
+  {
+    "meterValue": 7038.41,
+    "date": "2024-07-15",
+    "zipcode": "91208",
+    "timestamp": 1721026800.0,
+    "coordinate": [
+      34.1875482846,
+      -118.2312094159
+    ],
+    "uuid": "8d5a59e2-6cba-4c79-9520-ba0cdc35b071",
+    "serialNumber": "8300763038"
+  },
+  {
+    "meterValue": 4327.88,
+    "date": "2024-08-09",
+    "zipcode": "91208",
+    "timestamp": 1723186800.0,
+    "coordinate": [
+      34.2153596674,
+      -118.2584885805
+    ],
+    "uuid": "d2ce5a2e-07a8-432b-849b-642e9d18bfbd",
+    "serialNumber": "4575970664"
+  },
+  {
+    "meterValue": 7810.73,
+    "date": "2024-07-09",
+    "zipcode": "91208",
+    "timestamp": 1720508400.0,
+    "coordinate": [
+      34.2049053504,
+      -118.2414165034
+    ],
+    "uuid": "30e1baa1-2370-4c8f-8ba8-996378eee8b9",
+    "serialNumber": "3669019456"
+  },
+  {
+    "meterValue": 6711.67,
+    "date": "2024-06-28",
+    "zipcode": "91011",
+    "timestamp": 1719558000.0,
+    "coordinate": [
+      34.2210505741,
+      -118.2114033759
+    ],
+    "uuid": "106a8c41-a809-4caf-9825-fce61591597c",
+    "serialNumber": "8992426486"
+  },
+  {
+    "meterValue": 2773.37,
+    "date": "2024-06-10",
+    "zipcode": "91011",
+    "timestamp": 1718002800.0,
+    "coordinate": [
+      34.2546579054,
+      -118.2052580227
+    ],
+    "uuid": "25ac9528-cad8-4e23-a3eb-b6471229044d",
+    "serialNumber": "6584498402"
+  },
+  {
+    "meterValue": 6433.94,
+    "date": "2024-08-31",
+    "zipcode": "91214",
+    "timestamp": 1725087600.0,
+    "coordinate": [
+      34.2463639477,
+      -118.2217313047
+    ],
+    "uuid": "c677dcfb-a647-421d-85d8-423dba4d5429",
+    "serialNumber": "6350453411"
+  },
+  {
+    "meterValue": 5872.4,
+    "date": "2024-12-31",
+    "zipcode": "91214",
+    "timestamp": 1735632000.0,
+    "coordinate": [
+      34.2359225633,
+      -118.2413160733
+    ],
+    "uuid": "f9f221aa-28c4-4ea4-9938-3e548e84173b",
+    "serialNumber": "8342242619"
+  },
+  {
+    "meterValue": 6305.52,
+    "date": "2024-05-13",
+    "zipcode": "91208",
+    "timestamp": 1715583600.0,
+    "coordinate": [
+      34.1941591062,
+      -118.2167936646
+    ],
+    "uuid": "4111eeb1-7b0f-45a3-a822-9ea72aaeb4cd",
+    "serialNumber": "9246172641"
+  },
+  {
+    "meterValue": 6897.3,
+    "date": "2024-05-13",
+    "zipcode": "91214",
+    "timestamp": 1715583600.0,
+    "coordinate": [
+      34.235381627,
+      -118.2603455298
+    ],
+    "uuid": "f7735e84-2947-4d6a-914d-95da2c1d19ad",
+    "serialNumber": "5978969144"
+  },
+  {
+    "meterValue": 2165.65,
+    "date": "2024-10-28",
+    "zipcode": "91208",
+    "timestamp": 1730098800.0,
+    "coordinate": [
+      34.1749998082,
+      -118.2332616207
+    ],
+    "uuid": "5b493b37-98b6-4265-965e-b5c34850efc9",
+    "serialNumber": "5690984318"
+  },
+  {
+    "meterValue": 5639.99,
+    "date": "2024-02-10",
+    "zipcode": "91011",
+    "timestamp": 1707552000.0,
+    "coordinate": [
+      34.1963533916,
+      -118.2036516576
+    ],
+    "uuid": "48adc1f8-07c7-466c-8bff-68665d76ca75",
+    "serialNumber": "5621860027"
+  },
+  {
+    "meterValue": 4834.73,
+    "date": "2024-04-01",
+    "zipcode": "91011",
+    "timestamp": 1711954800.0,
+    "coordinate": [
+      34.2192266201,
+      -118.2242777984
+    ],
+    "uuid": "c255eb02-40ec-4283-9880-f92f0d161506",
+    "serialNumber": "7862506114"
+  },
+  {
+    "meterValue": 1865.1,
+    "date": "2024-09-19",
+    "zipcode": "91214",
+    "timestamp": 1726729200.0,
+    "coordinate": [
+      34.2216103646,
+      -118.2444033538
+    ],
+    "uuid": "c3d3365b-e4de-4e22-85c1-b3b50da5f0ae",
+    "serialNumber": "7170072403"
+  },
+  {
+    "meterValue": 4142.87,
+    "date": "2024-06-22",
+    "zipcode": "91214",
+    "timestamp": 1719039600.0,
+    "coordinate": [
+      34.2170954776,
+      -118.2781114628
+    ],
+    "uuid": "36ee9d62-7f8f-4197-a2eb-47f0489ca456",
+    "serialNumber": "6972290895"
+  },
+  {
+    "meterValue": 1631.04,
+    "date": "2024-04-13",
+    "zipcode": "91011",
+    "timestamp": 1712991600.0,
+    "coordinate": [
+      34.241782079,
+      -118.2097930142
+    ],
+    "uuid": "65b0a7f0-26c3-4880-be5d-8fdfbd8e48b7",
+    "serialNumber": "8251284212"
+  },
+  {
+    "meterValue": 2786.11,
+    "date": "2024-07-19",
+    "zipcode": "91208",
+    "timestamp": 1721372400.0,
+    "coordinate": [
+      34.1905081594,
+      -118.2176119528
+    ],
+    "uuid": "fc744fbd-b68b-45f0-a3bc-d355223acfe4",
+    "serialNumber": "9875093135"
+  },
+  {
+    "meterValue": 6918.6,
+    "date": "2024-03-28",
+    "zipcode": "91208",
+    "timestamp": 1711609200.0,
+    "coordinate": [
+      34.1883486688,
+      -118.2377461187
+    ],
+    "uuid": "bfa38e18-007b-4029-9bc7-6a61e9713206",
+    "serialNumber": "5121726315"
+  },
+  {
+    "meterValue": 7874.35,
+    "date": "2024-01-04",
+    "zipcode": "91214",
+    "timestamp": 1704355200.0,
+    "coordinate": [
+      34.2545433334,
+      -118.2523864523
+    ],
+    "uuid": "65a05d70-2118-4bad-98bc-1ab1b496430d",
+    "serialNumber": "5413350437"
+  },
+  {
+    "meterValue": 7968.16,
+    "date": "2024-05-16",
+    "zipcode": "91214",
+    "timestamp": 1715842800.0,
+    "coordinate": [
+      34.2461686725,
+      -118.2235629297
+    ],
+    "uuid": "3a9d3ab5-c505-4f62-b696-b362a021aaaf",
+    "serialNumber": "6207743231"
+  },
+  {
+    "meterValue": 2288.33,
+    "date": "2024-11-18",
+    "zipcode": "91011",
+    "timestamp": 1731916800.0,
+    "coordinate": [
+      34.2475450991,
+      -118.2105351517
+    ],
+    "uuid": "aea4f475-9c28-4daf-8820-2f06f3d21959",
+    "serialNumber": "2435940142"
+  },
+  {
+    "meterValue": 3934.72,
+    "date": "2024-04-19",
+    "zipcode": "91208",
+    "timestamp": 1713510000.0,
+    "coordinate": [
+      34.1716088292,
+      -118.2160826122
+    ],
+    "uuid": "28f92fd5-3fce-4bde-8e33-deb96a0fea2c",
+    "serialNumber": "7012649614"
+  },
+  {
+    "meterValue": 2359.74,
+    "date": "2024-04-16",
+    "zipcode": "91214",
+    "timestamp": 1713250800.0,
+    "coordinate": [
+      34.2264775714,
+      -118.2367494841
+    ],
+    "uuid": "37cbe567-e5fb-4405-bd48-3a300129ff60",
+    "serialNumber": "6500693321"
+  },
+  {
+    "meterValue": 7174.92,
+    "date": "2024-07-21",
+    "zipcode": "91208",
+    "timestamp": 1721545200.0,
+    "coordinate": [
+      34.1827432278,
+      -118.2117274344
+    ],
+    "uuid": "90244a63-f4ab-4909-93f5-7d9125fb4821",
+    "serialNumber": "801164418"
+  },
+  {
+    "meterValue": 4125.11,
+    "date": "2024-08-14",
+    "zipcode": "91208",
+    "timestamp": 1723618800.0,
+    "coordinate": [
+      34.1956870405,
+      -118.2461089797
+    ],
+    "uuid": "55efe216-3c19-46a8-a32c-ad87f71fbdb6",
+    "serialNumber": "3861766837"
+  },
+  {
+    "meterValue": 6713.93,
+    "date": "2024-06-26",
+    "zipcode": "91011",
+    "timestamp": 1719385200.0,
+    "coordinate": [
+      34.2292053751,
+      -118.1922260976
+    ],
+    "uuid": "5111e78e-6470-498d-9836-0d34c0254560",
+    "serialNumber": "774716830"
+  },
+  {
+    "meterValue": 3797.58,
+    "date": "2024-01-20",
+    "zipcode": "91011",
+    "timestamp": 1705737600.0,
+    "coordinate": [
+      34.2031249009,
+      -118.2110288948
+    ],
+    "uuid": "762bc6bc-1e03-4495-a27d-ac3a8e7769d6",
+    "serialNumber": "2761463522"
+  },
+  {
+    "meterValue": 1388.82,
+    "date": "2024-05-27",
+    "zipcode": "91011",
+    "timestamp": 1716793200.0,
+    "coordinate": [
+      34.2396141309,
+      -118.2066052033
+    ],
+    "uuid": "cd6e3c14-40bf-40d2-8282-5d69fa80a2a3",
+    "serialNumber": "4299722825"
+  },
+  {
+    "meterValue": 7590.36,
+    "date": "2024-08-10",
+    "zipcode": "91214",
+    "timestamp": 1723273200.0,
+    "coordinate": [
+      34.241584181,
+      -118.2427913986
+    ],
+    "uuid": "7072b925-aaf1-4eee-b9a3-69223979a401",
+    "serialNumber": "6801799379"
+  },
+  {
+    "meterValue": 7571.37,
+    "date": "2024-10-04",
+    "zipcode": "91011",
+    "timestamp": 1728025200.0,
+    "coordinate": [
+      34.1846590502,
+      -118.1862552326
+    ],
+    "uuid": "2ac3b8e2-81ad-46c2-a98a-aba0bd01da80",
+    "serialNumber": "9012533298"
+  },
+  {
+    "meterValue": 1136.08,
+    "date": "2024-01-23",
+    "zipcode": "91011",
+    "timestamp": 1705996800.0,
+    "coordinate": [
+      34.2177743658,
+      -118.2005677772
+    ],
+    "uuid": "7e2a5e93-1df6-47fa-9c0f-3414343cfce0",
+    "serialNumber": "3946772662"
+  },
+  {
+    "meterValue": 5066.2,
+    "date": "2024-08-04",
+    "zipcode": "91214",
+    "timestamp": 1722754800.0,
+    "coordinate": [
+      34.2430045425,
+      -118.2464874728
+    ],
+    "uuid": "431620bf-edeb-4444-b8ad-d5b8fb63bc03",
+    "serialNumber": "49557801"
+  },
+  {
+    "meterValue": 7176.54,
+    "date": "2024-10-19",
+    "zipcode": "91214",
+    "timestamp": 1729321200.0,
+    "coordinate": [
+      34.2178155468,
+      -118.2681130212
+    ],
+    "uuid": "d7a16fa4-dfc6-444e-ad4b-5f2b432cb788",
+    "serialNumber": "7319357528"
+  },
+  {
+    "meterValue": 2792.76,
+    "date": "2024-05-02",
+    "zipcode": "91214",
+    "timestamp": 1714633200.0,
+    "coordinate": [
+      34.234085096,
+      -118.249082666
+    ],
+    "uuid": "4858c236-c1a3-4c72-b45f-55505cbc8bb0",
+    "serialNumber": "4003256922"
+  },
+  {
+    "meterValue": 7291.52,
+    "date": "2024-08-08",
+    "zipcode": "91011",
+    "timestamp": 1723100400.0,
+    "coordinate": [
+      34.2144322498,
+      -118.2121100753
+    ],
+    "uuid": "cc066a82-dc7b-4486-8258-e9759bb37837",
+    "serialNumber": "1550972347"
+  },
+  {
+    "meterValue": 4809.72,
+    "date": "2024-04-16",
+    "zipcode": "91214",
+    "timestamp": 1713250800.0,
+    "coordinate": [
+      34.2244922757,
+      -118.2357403939
+    ],
+    "uuid": "b674ec38-f0c2-454c-824e-99250cf14d50",
+    "serialNumber": "262685368"
+  },
+  {
+    "meterValue": 4427.69,
+    "date": "2024-11-07",
+    "zipcode": "91208",
+    "timestamp": 1730966400.0,
+    "coordinate": [
+      34.1807491811,
+      -118.2376957739
+    ],
+    "uuid": "9ed3a00d-e6ab-43b3-99a3-29d581216bde",
+    "serialNumber": "7905433548"
+  },
+  {
+    "meterValue": 6984.62,
+    "date": "2024-09-29",
+    "zipcode": "91011",
+    "timestamp": 1727593200.0,
+    "coordinate": [
+      34.2186055473,
+      -118.2162738407
+    ],
+    "uuid": "028d419a-1357-49b5-b6c9-56d7f9ac2aa4",
+    "serialNumber": "1540857542"
+  },
+  {
+    "meterValue": 7868.64,
+    "date": "2024-03-10",
+    "zipcode": "91208",
+    "timestamp": 1710057600.0,
+    "coordinate": [
+      34.1727655987,
+      -118.2174322789
+    ],
+    "uuid": "97c005cf-ff54-45a3-a88e-45e872d53425",
+    "serialNumber": "9474161454"
+  },
+  {
+    "meterValue": 4567.55,
+    "date": "2024-05-29",
+    "zipcode": "91208",
+    "timestamp": 1716966000.0,
+    "coordinate": [
+      34.2078329785,
+      -118.2464908557
+    ],
+    "uuid": "5026299d-6a12-400e-878b-c2138cc99a32",
+    "serialNumber": "7473368754"
+  },
+  {
+    "meterValue": 3066.78,
+    "date": "2024-08-03",
+    "zipcode": "91214",
+    "timestamp": 1722668400.0,
+    "coordinate": [
+      34.2316618976,
+      -118.2611488239
+    ],
+    "uuid": "d0fb4787-fb29-404d-a785-2c5019f0ba4f",
+    "serialNumber": "9331274219"
+  },
+  {
+    "meterValue": 7955.36,
+    "date": "2024-05-10",
+    "zipcode": "91214",
+    "timestamp": 1715324400.0,
+    "coordinate": [
+      34.2257660853,
+      -118.2473751366
+    ],
+    "uuid": "17543309-51ec-4f30-9f4e-5cdc1add2bca",
+    "serialNumber": "7466991898"
+  },
+  {
+    "meterValue": 4070.38,
+    "date": "2024-08-23",
+    "zipcode": "91011",
+    "timestamp": 1724396400.0,
+    "coordinate": [
+      34.2533182473,
+      -118.2365447389
+    ],
+    "uuid": "7da33c58-5a21-48ff-8a41-07bc11b048ce",
+    "serialNumber": "5320336594"
+  },
+  {
+    "meterValue": 1622.97,
+    "date": "2024-04-21",
+    "zipcode": "91011",
+    "timestamp": 1713682800.0,
+    "coordinate": [
+      34.2598194245,
+      -118.2175150149
+    ],
+    "uuid": "4ffc6f7b-fb50-4d28-963a-a84ce25e7049",
+    "serialNumber": "4125450319"
+  },
+  {
+    "meterValue": 4300.38,
+    "date": "2024-06-06",
+    "zipcode": "91214",
+    "timestamp": 1717657200.0,
+    "coordinate": [
+      34.2640923068,
+      -118.2560843044
+    ],
+    "uuid": "a21a0f98-4f28-4173-a2eb-0e6a2166af7a",
+    "serialNumber": "2385180344"
+  },
+  {
+    "meterValue": 2706.44,
+    "date": "2024-07-24",
+    "zipcode": "91208",
+    "timestamp": 1721804400.0,
+    "coordinate": [
+      34.1965376084,
+      -118.2407455616
+    ],
+    "uuid": "e4c3fecb-abd1-46f4-ab8a-309f10a50822",
+    "serialNumber": "4046298675"
+  },
+  {
+    "meterValue": 2383.69,
+    "date": "2024-09-23",
+    "zipcode": "91214",
+    "timestamp": 1727074800.0,
+    "coordinate": [
+      34.2388543799,
+      -118.2441171718
+    ],
+    "uuid": "a8ad4ed1-590d-4d29-aefd-049e50eee49f",
+    "serialNumber": "2082860452"
+  },
+  {
+    "meterValue": 4695.53,
+    "date": "2024-06-17",
+    "zipcode": "91214",
+    "timestamp": 1718607600.0,
+    "coordinate": [
+      34.2273167054,
+      -118.2604361797
+    ],
+    "uuid": "45c48017-114a-4d30-936c-0a494040a422",
+    "serialNumber": "7133895751"
+  },
+  {
+    "meterValue": 2150.01,
+    "date": "2024-02-06",
+    "zipcode": "91011",
+    "timestamp": 1707206400.0,
+    "coordinate": [
+      34.1836750383,
+      -118.1978913486
+    ],
+    "uuid": "6c2a91f0-a268-4148-be12-8a2c3cf7a35a",
+    "serialNumber": "592114598"
+  },
+  {
+    "meterValue": 5316.38,
+    "date": "2024-01-28",
+    "zipcode": "91208",
+    "timestamp": 1706428800.0,
+    "coordinate": [
+      34.1994354714,
+      -118.2242514784
+    ],
+    "uuid": "c46f60b9-a752-45ac-838e-7c848b7c24fa",
+    "serialNumber": "7901846044"
+  },
+  {
+    "meterValue": 5779.29,
+    "date": "2024-10-10",
+    "zipcode": "91011",
+    "timestamp": 1728543600.0,
+    "coordinate": [
+      34.2140210394,
+      -118.2120167768
+    ],
+    "uuid": "7a56f0db-42cf-43b5-800c-ac2ce25f5848",
+    "serialNumber": "696010854"
+  },
+  {
+    "meterValue": 1375.33,
+    "date": "2024-02-21",
+    "zipcode": "91011",
+    "timestamp": 1708502400.0,
+    "coordinate": [
+      34.2333949086,
+      -118.1984806988
+    ],
+    "uuid": "e8e96379-d126-40ba-8dee-e0020d64636a",
+    "serialNumber": "9963789953"
+  },
+  {
+    "meterValue": 7430.77,
+    "date": "2024-04-21",
+    "zipcode": "91208",
+    "timestamp": 1713682800.0,
+    "coordinate": [
+      34.1677064355,
+      -118.2275642036
+    ],
+    "uuid": "f44be653-3a3f-442d-add5-82d97e62a912",
+    "serialNumber": "4181619244"
+  },
+  {
+    "meterValue": 7873.43,
+    "date": "2024-11-29",
+    "zipcode": "91011",
+    "timestamp": 1732867200.0,
+    "coordinate": [
+      34.2129589383,
+      -118.1791776401
+    ],
+    "uuid": "fac88c21-cafa-4d93-9dc9-e131a4ad0883",
+    "serialNumber": "7096491977"
+  },
+  {
+    "meterValue": 4332.97,
+    "date": "2024-04-24",
+    "zipcode": "91208",
+    "timestamp": 1713942000.0,
+    "coordinate": [
+      34.1826010585,
+      -118.2460741643
+    ],
+    "uuid": "9a9e14e4-5f11-4252-9168-b91f40ebace3",
+    "serialNumber": "3367077040"
+  },
+  {
+    "meterValue": 4886.72,
+    "date": "2024-05-01",
+    "zipcode": "91208",
+    "timestamp": 1714546800.0,
+    "coordinate": [
+      34.1701921779,
+      -118.2226087914
+    ],
+    "uuid": "ddf3d07c-ea16-46fb-970b-1b2010f46214",
+    "serialNumber": "8435469685"
+  },
+  {
+    "meterValue": 2239.26,
+    "date": "2024-04-17",
+    "zipcode": "91208",
+    "timestamp": 1713337200.0,
+    "coordinate": [
+      34.1883306772,
+      -118.2503573
+    ],
+    "uuid": "6a185c10-4720-48f2-92a1-fbd3716ccc6e",
+    "serialNumber": "1662349022"
+  },
+  {
+    "meterValue": 3448.75,
+    "date": "2024-01-11",
+    "zipcode": "91011",
+    "timestamp": 1704960000.0,
+    "coordinate": [
+      34.2437835149,
+      -118.2108040621
+    ],
+    "uuid": "11a6c883-cb40-487d-8a2b-8dbad3cfbae7",
+    "serialNumber": "8845433733"
+  },
+  {
+    "meterValue": 2677.49,
+    "date": "2024-07-20",
+    "zipcode": "91214",
+    "timestamp": 1721458800.0,
+    "coordinate": [
+      34.2617901619,
+      -118.2463260384
+    ],
+    "uuid": "70edd5ca-1450-4479-8fce-5a6159a59f61",
+    "serialNumber": "6925001548"
+  },
+  {
+    "meterValue": 2175.95,
+    "date": "2024-04-09",
+    "zipcode": "91011",
+    "timestamp": 1712646000.0,
+    "coordinate": [
+      34.2476003918,
+      -118.210365151
+    ],
+    "uuid": "e268608d-9fb1-4044-bf8a-eab44a3a3041",
+    "serialNumber": "8765086712"
+  },
+  {
+    "meterValue": 3951.53,
+    "date": "2024-11-10",
+    "zipcode": "91011",
+    "timestamp": 1731225600.0,
+    "coordinate": [
+      34.185904451,
+      -118.1879594782
+    ],
+    "uuid": "8b9f8ccc-0e36-4130-9600-b5ca71e813a0",
+    "serialNumber": "1304767849"
+  },
+  {
+    "meterValue": 2792.75,
+    "date": "2024-03-14",
+    "zipcode": "91011",
+    "timestamp": 1710399600.0,
+    "coordinate": [
+      34.2225566146,
+      -118.2140047399
+    ],
+    "uuid": "a5b71d0e-cd9c-4311-a233-f2a7ec37fed2",
+    "serialNumber": "1836370985"
+  },
+  {
+    "meterValue": 3839.98,
+    "date": "2024-02-01",
+    "zipcode": "91011",
+    "timestamp": 1706774400.0,
+    "coordinate": [
+      34.1890754133,
+      -118.1848615254
+    ],
+    "uuid": "02b544f6-1108-4530-8779-c7f1bb1fff8e",
+    "serialNumber": "5380950227"
+  },
+  {
+    "meterValue": 4836.83,
+    "date": "2024-09-29",
+    "zipcode": "91214",
+    "timestamp": 1727593200.0,
+    "coordinate": [
+      34.2409436547,
+      -118.2278111017
+    ],
+    "uuid": "d9ea052b-befd-41e8-a8fa-dae068d61644",
+    "serialNumber": "1081574616"
+  },
+  {
+    "meterValue": 2712.37,
+    "date": "2024-10-30",
+    "zipcode": "91011",
+    "timestamp": 1730271600.0,
+    "coordinate": [
+      34.2352091188,
+      -118.1991229191
+    ],
+    "uuid": "26ba6a83-e475-46fb-a216-6617e5d33e05",
+    "serialNumber": "1790881920"
+  },
+  {
+    "meterValue": 6591.06,
+    "date": "2024-08-23",
+    "zipcode": "91020",
+    "timestamp": 1724396400.0,
+    "coordinate": [
+      34.2163182706,
+      -118.2297840889
+    ],
+    "uuid": "473657a9-0966-42ad-bd25-b8f40163ceb1",
+    "serialNumber": "6975965598"
+  },
+  {
+    "meterValue": 7384.93,
+    "date": "2024-05-06",
+    "zipcode": "91214",
+    "timestamp": 1714978800.0,
+    "coordinate": [
+      34.2162521789,
+      -118.2806157221
+    ],
+    "uuid": "6bbcafd8-a0c4-4e02-91f5-a2e48b914294",
+    "serialNumber": "5827254623"
+  },
+  {
+    "meterValue": 5805.33,
+    "date": "2024-05-02",
+    "zipcode": "91208",
+    "timestamp": 1714633200.0,
+    "coordinate": [
+      34.1794027097,
+      -118.2228380278
+    ],
+    "uuid": "0501ebef-e6dd-4772-a9a4-aa7b9ebb4a28",
+    "serialNumber": "6408662714"
+  },
+  {
+    "meterValue": 4787.8,
+    "date": "2024-02-28",
+    "zipcode": "91011",
+    "timestamp": 1709107200.0,
+    "coordinate": [
+      34.260115598,
+      -118.2250295763
+    ],
+    "uuid": "dfbbee77-2f60-4a84-9701-2a9755b72430",
+    "serialNumber": "3731612422"
+  },
+  {
+    "meterValue": 3848.73,
+    "date": "2024-07-01",
+    "zipcode": "91011",
+    "timestamp": 1719817200.0,
+    "coordinate": [
+      34.2444148648,
+      -118.2184871909
+    ],
+    "uuid": "c9cca40c-9eec-4cb7-94a6-56daf443be75",
+    "serialNumber": "8729340519"
+  },
+  {
+    "meterValue": 6711.91,
+    "date": "2024-09-29",
+    "zipcode": "91011",
+    "timestamp": 1727593200.0,
+    "coordinate": [
+      34.2165687376,
+      -118.2029882211
+    ],
+    "uuid": "56a10c55-921e-4c5f-8e40-d390af338963",
+    "serialNumber": "5471327207"
+  },
+  {
+    "meterValue": 3412.09,
+    "date": "2024-04-09",
+    "zipcode": "91020",
+    "timestamp": 1712646000.0,
+    "coordinate": [
+      34.2073926825,
+      -118.2333925897
+    ],
+    "uuid": "f25a2a09-8be2-4101-bb1b-8364776fa0f3",
+    "serialNumber": "3637528811"
+  },
+  {
+    "meterValue": 2467.72,
+    "date": "2024-03-30",
+    "zipcode": "91011",
+    "timestamp": 1711782000.0,
+    "coordinate": [
+      34.2215187068,
+      -118.204376754
+    ],
+    "uuid": "c262f22f-0e00-4f4f-a919-1ca07262bb99",
+    "serialNumber": "2235428642"
+  },
+  {
+    "meterValue": 4104.09,
+    "date": "2024-09-07",
+    "zipcode": "91011",
+    "timestamp": 1725692400.0,
+    "coordinate": [
+      34.2563524082,
+      -118.2137443261
+    ],
+    "uuid": "f5a90cb9-8715-42ec-952f-908246faebff",
+    "serialNumber": "6549292812"
+  },
+  {
+    "meterValue": 5682.13,
+    "date": "2024-02-09",
+    "zipcode": "91011",
+    "timestamp": 1707465600.0,
+    "coordinate": [
+      34.1892873016,
+      -118.1814905465
+    ],
+    "uuid": "3252f4cc-1ac1-4b62-9b11-a5024dbb29a7",
+    "serialNumber": "5425184214"
+  },
+  {
+    "meterValue": 2937.03,
+    "date": "2024-03-24",
+    "zipcode": "91011",
+    "timestamp": 1711263600.0,
+    "coordinate": [
+      34.2210333477,
+      -118.228419035
+    ],
+    "uuid": "128434b8-c7d5-4a0f-86cb-e9be295a7ef7",
+    "serialNumber": "703021807"
+  },
+  {
+    "meterValue": 4051.91,
+    "date": "2024-05-02",
+    "zipcode": "91011",
+    "timestamp": 1714633200.0,
+    "coordinate": [
+      34.261937376,
+      -118.236596831
+    ],
+    "uuid": "4669df8e-4992-4a50-aabd-98dea46e3bc0",
+    "serialNumber": "9777559763"
+  },
+  {
+    "meterValue": 6788.63,
+    "date": "2024-09-11",
+    "zipcode": "91011",
+    "timestamp": 1726038000.0,
+    "coordinate": [
+      34.2243284392,
+      -118.2029293773
+    ],
+    "uuid": "eb93c75d-d811-4bac-9d14-358a71f2f67e",
+    "serialNumber": "7059616500"
+  },
+  {
+    "meterValue": 1217.74,
+    "date": "2024-05-18",
+    "zipcode": "91214",
+    "timestamp": 1716015600.0,
+    "coordinate": [
+      34.2377282973,
+      -118.2465193161
+    ],
+    "uuid": "a916f610-1436-4fc2-a02f-814f720769ec",
+    "serialNumber": "4050809853"
+  },
+  {
+    "meterValue": 2560.58,
+    "date": "2024-08-18",
+    "zipcode": "91011",
+    "timestamp": 1723964400.0,
+    "coordinate": [
+      34.256034752,
+      -118.2357697986
+    ],
+    "uuid": "f4f0020b-d6f7-4e7a-91c7-1fc4b762690c",
+    "serialNumber": "3005443996"
+  },
+  {
+    "meterValue": 2780.88,
+    "date": "2024-07-01",
+    "zipcode": "91208",
+    "timestamp": 1719817200.0,
+    "coordinate": [
+      34.2099997314,
+      -118.2728766558
+    ],
+    "uuid": "c2cc7dd3-6353-4f8c-b63b-cee864e95fcf",
+    "serialNumber": "1257126214"
+  },
+  {
+    "meterValue": 7331.0,
+    "date": "2024-04-23",
+    "zipcode": "91208",
+    "timestamp": 1713855600.0,
+    "coordinate": [
+      34.1834977554,
+      -118.2331262331
+    ],
+    "uuid": "d8093a0d-fa02-4d50-a8cc-a71d0f5645b5",
+    "serialNumber": "8384047835"
+  },
+  {
+    "meterValue": 5214.19,
+    "date": "2024-12-02",
+    "zipcode": "91214",
+    "timestamp": 1733126400.0,
+    "coordinate": [
+      34.2613113624,
+      -118.2414345754
+    ],
+    "uuid": "bed8d2e8-a2bb-4ca0-bb87-ed3bb0e11140",
+    "serialNumber": "171088006"
+  },
+  {
+    "meterValue": 2971.92,
+    "date": "2024-11-11",
+    "zipcode": "91214",
+    "timestamp": 1731312000.0,
+    "coordinate": [
+      34.215345623,
+      -118.2548625024
+    ],
+    "uuid": "60c61211-3e59-49ce-b52e-4b2e1ae26f2c",
+    "serialNumber": "2265500096"
+  },
+  {
+    "meterValue": 7267.81,
+    "date": "2024-02-17",
+    "zipcode": "91011",
+    "timestamp": 1708156800.0,
+    "coordinate": [
+      34.2145554265,
+      -118.1839117946
+    ],
+    "uuid": "b8945e83-218d-4d28-a1fe-130ae527e8c6",
+    "serialNumber": "8623521779"
+  },
+  {
+    "meterValue": 3236.72,
+    "date": "2024-02-04",
+    "zipcode": "91214",
+    "timestamp": 1707033600.0,
+    "coordinate": [
+      34.2424169109,
+      -118.2451581475
+    ],
+    "uuid": "111de267-390c-4ee5-9071-98d8a2ec25fa",
+    "serialNumber": "7709848888"
+  },
+  {
+    "meterValue": 2999.0,
+    "date": "2024-05-16",
+    "zipcode": "91208",
+    "timestamp": 1715842800.0,
+    "coordinate": [
+      34.211969435,
+      -118.2729975091
+    ],
+    "uuid": "1b3124ac-2774-49ee-9b5b-ac78749d7163",
+    "serialNumber": "2589963157"
+  },
+  {
+    "meterValue": 2987.18,
+    "date": "2024-07-19",
+    "zipcode": "91011",
+    "timestamp": 1721372400.0,
+    "coordinate": [
+      34.2252958757,
+      -118.2243189138
+    ],
+    "uuid": "101ee908-f9e3-470f-9383-67f07de917f0",
+    "serialNumber": "8230155354"
+  },
+  {
+    "meterValue": 4221.87,
+    "date": "2024-02-17",
+    "zipcode": "91214",
+    "timestamp": 1708156800.0,
+    "coordinate": [
+      34.2374177144,
+      -118.229869814
+    ],
+    "uuid": "c913e44c-7b7d-4a93-b249-9f0e9bcffac7",
+    "serialNumber": "2115678729"
+  },
+  {
+    "meterValue": 2502.42,
+    "date": "2024-10-10",
+    "zipcode": "91208",
+    "timestamp": 1728543600.0,
+    "coordinate": [
+      34.1870597411,
+      -118.2455977953
+    ],
+    "uuid": "ba8348b4-7d75-4230-8796-a72e2dec5a11",
+    "serialNumber": "1190139717"
+  },
+  {
+    "meterValue": 1299.26,
+    "date": "2024-12-15",
+    "zipcode": "91208",
+    "timestamp": 1734249600.0,
+    "coordinate": [
+      34.1964924095,
+      -118.2444038745
+    ],
+    "uuid": "50ccca40-b9cb-485e-968e-6b3a43a495d8",
+    "serialNumber": "3325620242"
+  },
+  {
+    "meterValue": 6496.24,
+    "date": "2024-09-02",
+    "zipcode": "91208",
+    "timestamp": 1725260400.0,
+    "coordinate": [
+      34.2094434403,
+      -118.2504311503
+    ],
+    "uuid": "63d15247-846d-4f66-b047-0ef79b8f8778",
+    "serialNumber": "9786047234"
+  },
+  {
+    "meterValue": 7815.28,
+    "date": "2024-11-26",
+    "zipcode": "91011",
+    "timestamp": 1732608000.0,
+    "coordinate": [
+      34.2594650142,
+      -118.2239263407
+    ],
+    "uuid": "6d074ffa-b601-4570-ac26-4152b1516429",
+    "serialNumber": "7695641022"
+  },
+  {
+    "meterValue": 7951.16,
+    "date": "2024-11-16",
+    "zipcode": "91011",
+    "timestamp": 1731744000.0,
+    "coordinate": [
+      34.1830738164,
+      -118.1771983586
+    ],
+    "uuid": "40c13ad5-147a-4653-a372-566c048a47b9",
+    "serialNumber": "9116149582"
+  },
+  {
+    "meterValue": 4615.85,
+    "date": "2024-06-09",
+    "zipcode": "91011",
+    "timestamp": 1717916400.0,
+    "coordinate": [
+      34.2120791325,
+      -118.1924318182
+    ],
+    "uuid": "e739fdc8-938c-41b7-b2bd-db209d913c37",
+    "serialNumber": "3171549855"
+  },
+  {
+    "meterValue": 4440.42,
+    "date": "2024-01-16",
+    "zipcode": "91011",
+    "timestamp": 1705392000.0,
+    "coordinate": [
+      34.2156952273,
+      -118.2136275675
+    ],
+    "uuid": "54e0f435-6bb3-46e6-a1ae-8133ba741174",
+    "serialNumber": "7317931921"
+  },
+  {
+    "meterValue": 1616.06,
+    "date": "2024-11-07",
+    "zipcode": "91011",
+    "timestamp": 1730966400.0,
+    "coordinate": [
+      34.2638289294,
+      -118.2124542519
+    ],
+    "uuid": "71b9ec91-1ee1-4189-8129-68fcb00a57d4",
+    "serialNumber": "12213691"
+  },
+  {
+    "meterValue": 7954.67,
+    "date": "2024-11-29",
+    "zipcode": "91011",
+    "timestamp": 1732867200.0,
+    "coordinate": [
+      34.2591419357,
+      -118.2171191135
+    ],
+    "uuid": "69776d4e-8766-4c17-bce3-2be708d601ae",
+    "serialNumber": "9382934719"
+  },
+  {
+    "meterValue": 1936.87,
+    "date": "2024-12-01",
+    "zipcode": "91214",
+    "timestamp": 1733040000.0,
+    "coordinate": [
+      34.2359912637,
+      -118.2382494819
+    ],
+    "uuid": "8fd888bc-14db-4220-b845-7a3fd9b6e9a9",
+    "serialNumber": "2102750454"
+  },
+  {
+    "meterValue": 5562.88,
+    "date": "2024-06-22",
+    "zipcode": "91011",
+    "timestamp": 1719039600.0,
+    "coordinate": [
+      34.198459339,
+      -118.1959786163
+    ],
+    "uuid": "9b59a5d0-896c-4666-b821-ce25f957a92e",
+    "serialNumber": "4337749699"
+  },
+  {
+    "meterValue": 2821.25,
+    "date": "2024-04-03",
+    "zipcode": "91208",
+    "timestamp": 1712127600.0,
+    "coordinate": [
+      34.2095259111,
+      -118.2715600706
+    ],
+    "uuid": "fc5d2ce3-2c13-450d-a1e7-1bbb93be6fa2",
+    "serialNumber": "2463972879"
+  },
+  {
+    "meterValue": 4118.28,
+    "date": "2024-02-17",
+    "zipcode": "91011",
+    "timestamp": 1708156800.0,
+    "coordinate": [
+      34.2031996021,
+      -118.196821122
+    ],
+    "uuid": "4216a2bc-aeee-46c0-be8c-bb43cb0bcaec",
+    "serialNumber": "5040187579"
+  },
+  {
+    "meterValue": 3292.66,
+    "date": "2024-10-13",
+    "zipcode": "91214",
+    "timestamp": 1728802800.0,
+    "coordinate": [
+      34.2535438894,
+      -118.2441183917
+    ],
+    "uuid": "23ea6a16-f5ff-44f0-8938-86a3b5d4137c",
+    "serialNumber": "4605260895"
+  },
+  {
+    "meterValue": 2953.61,
+    "date": "2024-03-29",
+    "zipcode": "91011",
+    "timestamp": 1711695600.0,
+    "coordinate": [
+      34.2147067496,
+      -118.2151951898
+    ],
+    "uuid": "4c9b37ce-7d77-4ea3-ac3e-94a8ba9111fd",
+    "serialNumber": "4283311690"
+  },
+  {
+    "meterValue": 5477.24,
+    "date": "2024-06-09",
+    "zipcode": "91214",
+    "timestamp": 1717916400.0,
+    "coordinate": [
+      34.2152676965,
+      -118.2444803286
+    ],
+    "uuid": "0967a32e-df2e-4fa4-b3b7-60cedd067437",
+    "serialNumber": "4696665551"
+  },
+  {
+    "meterValue": 3097.45,
+    "date": "2024-08-17",
+    "zipcode": "91011",
+    "timestamp": 1723878000.0,
+    "coordinate": [
+      34.256790425,
+      -118.2283434789
+    ],
+    "uuid": "98933b42-5697-4ac1-9d7b-cef6128e23b9",
+    "serialNumber": "7998008571"
+  },
+  {
+    "meterValue": 5419.97,
+    "date": "2024-08-13",
+    "zipcode": "91208",
+    "timestamp": 1723532400.0,
+    "coordinate": [
+      34.2161673299,
+      -118.2581736083
+    ],
+    "uuid": "f8ee02b9-6e2f-4429-882e-450394a5d6ae",
+    "serialNumber": "8817203278"
+  },
+  {
+    "meterValue": 3179.92,
+    "date": "2024-07-29",
+    "zipcode": "91214",
+    "timestamp": 1722236400.0,
+    "coordinate": [
+      34.2442966461,
+      -118.2277585363
+    ],
+    "uuid": "793ffa3f-5708-45bb-88a1-9a4680f6c16f",
+    "serialNumber": "8600674444"
+  },
+  {
+    "meterValue": 6576.4,
+    "date": "2024-12-22",
+    "zipcode": "91011",
+    "timestamp": 1734854400.0,
+    "coordinate": [
+      34.2086411569,
+      -118.1848816874
+    ],
+    "uuid": "2ad34776-9dd5-42d2-854d-7fab4369462a",
+    "serialNumber": "3161507551"
+  },
+  {
+    "meterValue": 5522.31,
+    "date": "2024-04-21",
+    "zipcode": "91011",
+    "timestamp": 1713682800.0,
+    "coordinate": [
+      34.2127620737,
+      -118.1858524549
+    ],
+    "uuid": "69b001dc-a1ff-4659-95b8-854142d3fff2",
+    "serialNumber": "6440698470"
+  },
+  {
+    "meterValue": 3501.42,
+    "date": "2024-02-15",
+    "zipcode": "91208",
+    "timestamp": 1707984000.0,
+    "coordinate": [
+      34.2098887683,
+      -118.2575742745
+    ],
+    "uuid": "bdb3122d-6949-4808-a9ce-0afcc48a5c09",
+    "serialNumber": "2475922586"
+  },
+  {
+    "meterValue": 5116.42,
+    "date": "2024-02-04",
+    "zipcode": "91208",
+    "timestamp": 1707033600.0,
+    "coordinate": [
+      34.1931217739,
+      -118.237048223
+    ],
+    "uuid": "5549ff69-69ee-4cf2-a68c-b119e4bcd528",
+    "serialNumber": "6583024128"
+  },
+  {
+    "meterValue": 4219.93,
+    "date": "2024-12-13",
+    "zipcode": "91214",
+    "timestamp": 1734076800.0,
+    "coordinate": [
+      34.2508477061,
+      -118.2362866712
+    ],
+    "uuid": "08bf4d4b-4158-44df-a87f-5e9a3b564496",
+    "serialNumber": "3838637791"
+  },
+  {
+    "meterValue": 3439.73,
+    "date": "2024-06-21",
+    "zipcode": "91011",
+    "timestamp": 1718953200.0,
+    "coordinate": [
+      34.2338618404,
+      -118.2135780643
+    ],
+    "uuid": "b8e6fd91-1210-4b2c-9d4e-f60553f8f297",
+    "serialNumber": "2922562653"
+  },
+  {
+    "meterValue": 1964.66,
+    "date": "2024-02-19",
+    "zipcode": "91011",
+    "timestamp": 1708329600.0,
+    "coordinate": [
+      34.2404896667,
+      -118.210509754
+    ],
+    "uuid": "1de7b853-1af0-4b47-a7c7-0e1ffafc84ee",
+    "serialNumber": "4439473303"
+  },
+  {
+    "meterValue": 4566.33,
+    "date": "2024-05-23",
+    "zipcode": "91214",
+    "timestamp": 1716447600.0,
+    "coordinate": [
+      34.2443691951,
+      -118.2457233582
+    ],
+    "uuid": "63271fc3-a249-4117-9ed2-11eb1acca0fe",
+    "serialNumber": "8033075195"
+  },
+  {
+    "meterValue": 4608.57,
+    "date": "2024-04-27",
+    "zipcode": "91011",
+    "timestamp": 1714201200.0,
+    "coordinate": [
+      34.2104680618,
+      -118.1779128307
+    ],
+    "uuid": "f5cad096-d08e-415c-9479-d83482d4420e",
+    "serialNumber": "1791037236"
+  },
+  {
+    "meterValue": 5035.73,
+    "date": "2024-10-17",
+    "zipcode": "91214",
+    "timestamp": 1729148400.0,
+    "coordinate": [
+      34.2163530332,
+      -118.2780076938
+    ],
+    "uuid": "662aa91d-04bf-431b-b215-b14f9e450c3f",
+    "serialNumber": "6686900932"
+  }
+]

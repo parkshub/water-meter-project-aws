@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Water Meter Dashboard v7</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: #f4f4f4;
+    }
+    h1 { margin-bottom: 2rem; }
+    .button-group { display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; }
+    .btn {
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background 0.2s ease-in-out;
+      text-decoration: none;
+    }
+    .btn:hover { background-color: #0056b3; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Water Meter Dashboard (v7)</h1>
+  <div class="button-group">
+    <a class="btn" href="add-meter.html">Add New Meter Value</a>
+    <a class="btn" href="register-meter.html">Register New Meter</a>
+    <a class="btn" href="dashboard.html">View Full Dashboard</a>
+  </div>
+
+  <script>
+    function getParameterByName(name) {
+      const url = window.location.href;
+      name = name.replace(/[\[\]]/g, '\\$&');
+      const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+      const results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+
+    function getCookie(name) {
+      const value = `; ${document.cookie}`;
+      const parts = value.split(`; ${name}=`);
+      if (parts.length === 2) return parts.pop().split(';').shift();
+    }
+
+    const code = getParameterByName('code');
+    const idToken = getCookie('id_token');
+
+    if (code && !idToken) {
+      fetch("https://gczz4zdf1b.execute-api.us-west-1.amazonaws.com/token", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ code: code })
+      })
+      .then(response => response.json())
+      .then(data => {
+        const domain = 'd27us82d2go2e4.cloudfront.net';
+        document.cookie = `id_token=${data.id_token}; path=/; domain=${domain}; secure; SameSite=Lax; max-age=${data.expires_in}`;
+        document.cookie = `access_token=${data.access_token}; path=/; domain=${domain}; secure; SameSite=Lax; max-age=${data.expires_in}`;
+        document.cookie = `refresh_token=${data.refresh_token}; path=/; domain=${domain}; secure; SameSite=Lax; max-age=${30*24*60*60}`;
+
+        // Clear ?code from URL and reload
+        window.history.replaceState({}, document.title, "/");
+        window.location.reload();
+      })
+      .catch(error => {
+        console.error("Error exchanging code for tokens:", error);
+      });
+    }
+  </script>
+</body>
+</html>

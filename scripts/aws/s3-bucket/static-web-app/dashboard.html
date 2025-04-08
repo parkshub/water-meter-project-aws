@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Water Meter Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      margin: 0;
+    }
+    .section-box {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+    iframe {
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+    }
+    .dashboard-iframe {
+      height: 350px;
+    }
+    .map-iframe {
+      height: 80vh;
+    }
+    .toggle-btn {
+      margin-bottom: 15px;
+    }
+    .main-title {
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="text-center main-title">📊 Water Meter Dashboard</h1>
+
+  <div class="section-box">
+    <button class="btn btn-primary w-100 toggle-btn" type="button" data-bs-toggle="collapse" data-bs-target="#dashboardCollapse">
+      Toggle Update Log
+    </button>
+    <div class="collapse show" id="dashboardCollapse">
+      <iframe src="meter_dashboard.html" class="dashboard-iframe"></iframe>
+    </div>
+  </div>
+
+  <div class="section-box">
+    <button class="btn btn-success w-100 toggle-btn" type="button" data-bs-toggle="collapse" data-bs-target="#mapCollapse">
+      Toggle Crescenta Valley Map
+    </button>
+    <div class="collapse show" id="mapCollapse">
+      <h2 class="text-center mb-3">Crescenta Valley Map</h2>
+      <iframe src="crescenta_valley_polygons_with_boundaries.html" class="map-iframe"></iframe>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
