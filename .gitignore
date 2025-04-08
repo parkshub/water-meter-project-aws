@@ -8,6 +8,7 @@ __pycache__/
 .env
 **/backup/
 **/test.py
+data/
 
 # VSCode settings
 .vscode/
