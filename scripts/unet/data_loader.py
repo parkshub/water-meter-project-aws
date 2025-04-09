@@ -27,11 +27,12 @@ class ImageDataLoader:
         image = tf.io.read_file(image_path)
         image = tf.io.decode_png(image, channels=1)
         image = tf.image.resize(image, [self.target_height, self.target_width])
+        image = tf.cast(image, tf.float32) / 255.0
 
         mask = tf.io.read_file(mask_path)
         mask = tf.io.decode_png(mask, channels=1)
-        # mask = tf.image.resize(mask, [self.target_height, self.target_width])
         mask = tf.image.resize(mask, [self.target_height, self.target_width], method='nearest')
+        mask = tf.cast(mask, tf.float32) / 255.0
 
         return image, mask
 

@@ -1,11 +1,23 @@
+import pickle
+import argparse
 from scripts.unet.data_loader import ImageDataLoader
 from scripts.unet.model_builder import ModelBuilder
 from scripts.unet.model_trainer import ModelTrainer
 
-# Initialize
-data_loader = ImageDataLoader(512, 512, 32)
-model_builder = ModelBuilder((512, 512, 1))
+parser = argparse.ArgumentParser(description="Train UNet model")
+parser.add_argument('--height', type=int, default=512, help='Target image height')
+parser.add_argument('--width', type=int, default=512, help='Target image width')
+parser.add_argument('--batch_size', type=int, default=2, help='Batch size')
+parser.add_argument('--epochs', type=int, default=1, help='Number of epochs')
+args = parser.parse_args()
 
-# Feed them to trainer
+print('\n', args.height, args.width, args.batch_size, args.epochs, '\n')
+
+data_loader = ImageDataLoader(args.height, args.width, args.batch_size)
+model_builder = ModelBuilder((args.height, args.width, 1))
+# todo make sure to fix model traininer and remove this dependecy and just provide train and test from here
 trainer = ModelTrainer(data_loader, model_builder)
-trainer.train(epochs=1)
+history = trainer.train(epochs=args.epochs)
+
+with open('unet_training_history.pkl', 'wb') as f:
+    pickle.dump(history.history, f)

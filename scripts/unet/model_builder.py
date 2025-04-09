@@ -1,5 +1,6 @@
 from tensorflow.keras import models
 from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D, Concatenate
+from tensorflow.keras.optimizers import Adam
 
 class ModelBuilder:
     def __init__(self, input_shape):
@@ -70,7 +71,8 @@ class ModelBuilder:
         x = self.buildBottleneck(x)
         outputs = self.buildDecoder(x, skip_connections)
         model = models.Model(inputs=inputs, outputs=outputs)
-        model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+        model.compile(optimizer=Adam(learning_rate=1e-4), loss='binary_crossentropy', metrics=['accuracy'])
+
         self.model = model
 
         return model
