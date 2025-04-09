@@ -19,6 +19,7 @@ class ModelTrainer:
         )
 
         model.save('unet_model.keras', save_format='keras')
+        model.save('unet_model.h5')
 
         print("Training complete! Model saved as 'unet_model.keras")
         return history
