@@ -9,6 +9,9 @@ __pycache__/
 **/backup/
 **/test.py
 data/
+*.keras
+*.pkl
+*.h5
 
 # VSCode settings
 .vscode/
