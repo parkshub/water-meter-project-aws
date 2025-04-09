@@ -15,7 +15,7 @@ print('\n', args.height, args.width, args.batch_size, args.epochs, '\n')
 
 data_loader = ImageDataLoader(args.height, args.width, args.batch_size)
 model_builder = ModelBuilder((args.height, args.width, 1))
-# todo make sure to fix model traininer and remove this dependecy and just provide train and test from here
+
 trainer = ModelTrainer(data_loader, model_builder)
 history = trainer.train(epochs=args.epochs)
 

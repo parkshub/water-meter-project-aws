@@ -23,18 +23,21 @@ class ImageDataLoader:
 
         return (train_img_paths, train_mask_paths), (test_img_paths, test_mask_paths)
 
-    def preprocess_image(self, image_path, mask_path):
+    def preprocess_image(self, image_path, mask_path=None):
         image = tf.io.read_file(image_path)
         image = tf.io.decode_png(image, channels=1)
         image = tf.image.resize(image, [self.target_height, self.target_width])
         image = tf.cast(image, tf.float32) / 255.0
 
-        mask = tf.io.read_file(mask_path)
-        mask = tf.io.decode_png(mask, channels=1)
-        mask = tf.image.resize(mask, [self.target_height, self.target_width], method='nearest')
-        mask = tf.cast(mask, tf.float32) / 255.0
+        if mask_path:
+            mask = tf.io.read_file(mask_path)
+            mask = tf.io.decode_png(mask, channels=1)
+            mask = tf.image.resize(mask, [self.target_height, self.target_width], method='nearest')
+            mask = tf.cast(mask, tf.float32) / 255.0
 
-        return image, mask
+            return image, mask
+
+        return image
 
     def create_dataset_pipeline(self, image_paths, mask_paths, train_set=True):
         dataset = tf.data.Dataset.from_tensor_slices((image_paths, mask_paths))

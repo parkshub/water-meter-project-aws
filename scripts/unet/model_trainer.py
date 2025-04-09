@@ -18,7 +18,7 @@ class ModelTrainer:
             epochs=epochs
         )
 
-        model.save('unet_model.keras')
+        model.save('unet_model.keras', save_format='keras')
 
         print("Training complete! Model saved as 'unet_model.keras")
         return history
@@ -26,7 +26,9 @@ class ModelTrainer:
 
     def predict(self, image_path):
         """Predict the output using the trained model."""
-        image = self.ImageDataLoader(image_path)  # Preprocess the image
+        image = self.ImageDataLoader.preprocess_image(image_path)  # Preprocess the image
+        # return image
+        image = tf.expand_dims(image, axis=0)  # Add batch dimension
 
         model = tf.keras.models.load_model('unet_model.keras')  # Load the trained model
         prediction = model.predict(image)
