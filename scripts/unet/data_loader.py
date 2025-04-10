@@ -1,7 +1,10 @@
 import os
+import random
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
-
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
 
 class ImageDataLoader:
     def __init__(self, target_height, target_width, batch_size):
@@ -58,10 +61,6 @@ class ImageDataLoader:
         return train_dataset, test_dataset
 
     def plot_data(self):
-        import matplotlib
-        import random
-        matplotlib.use('TkAgg')
-        import matplotlib.pyplot as plt
 
         image_paths = [os.path.join(self.image_folder, image) for image in os.listdir(self.image_folder)]
         random_images = random.sample(image_paths, 9)
