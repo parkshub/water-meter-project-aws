@@ -1,13 +1,14 @@
 # Python stuff
 __pycache__/
+.idea/
+.env
 *.pyc
 *.pyo
 *.pyd
-.venv/
-.idea/
-.env
+**/.venv*/
 **/backup/
 **/test.py
+
 data/
 *.keras
 *.pkl

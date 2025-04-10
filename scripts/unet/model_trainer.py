@@ -41,8 +41,8 @@ class ModelTrainer:
         prediction = prediction.squeeze()  # Remove the batch and channel dimensions
 
         # Display the result using matplotlib
-        import matplotlib.pyplot as plt
-        plt.imshow(prediction, cmap='gray')
-        plt.show()
+        # import matplotlib.pyplot as plt
+        # plt.imshow(prediction, cmap='gray')
+        # plt.show()
 
         return prediction
