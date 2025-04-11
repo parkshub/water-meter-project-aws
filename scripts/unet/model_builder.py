@@ -87,10 +87,12 @@ class ModelBuilder:
         outputs = self.buildDecoder(x, skip_connections)
         model = models.Model(inputs=inputs, outputs=outputs)
         # model.compile(optimizer=Adam(learning_rate=1e-4), loss='binary_crossentropy', metrics=['accuracy'])
+        # todo attempt one was default lr and 1, 5 i think not sure, it did ok
         model.compile(
             # loss='binary_crossentropy',
+            optimizer=Adam(learning_rate=0.0001),
             metrics=['accuracy'],
-            loss=weighted_binary_crossentropy(zero_weight=1.0, one_weight=5.0),
+            loss=weighted_binary_crossentropy(zero_weight=1.0, one_weight=15.0),
         )
 
         self.model = model
