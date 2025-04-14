@@ -60,7 +60,7 @@
     const idToken = getCookie('id_token');
 
     if (code && !idToken) {
-      fetch("https://gczz4zdf1b.execute-api.us-west-1.amazonaws.com/token", {
+      fetch("https://<aws-endpoint>.execute-api.us-west-1.amazonaws.com/token", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
