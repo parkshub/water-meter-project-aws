@@ -2,7 +2,7 @@ import sys
 import os
 
 cwd = os.getcwd()
-cwd
+
 if cwd not in sys.path:
     sys.path.append(cwd)
 
@@ -10,11 +10,11 @@ import os
 import pickle
 import argparse
 from scripts.unet.data_loader import ImageDataLoader
-# from scripts.unet.model_builder import ModelBuilder
-# from scripts.unet.model_trainer import ModelTrainer
-from data_loader import ImageDataLoader
-from model_builder import ModelBuilder
-from model_trainer import ModelTrainer
+from scripts.unet.model_builder import ModelBuilder
+from scripts.unet.model_trainer import ModelTrainer
+# from data_loader import ImageDataLoader
+# from model_builder import ModelBuilder
+# from model_trainer import ModelTrainer
 
 
 parser = argparse.ArgumentParser(description="Train UNet model")
@@ -30,7 +30,7 @@ data_loader = ImageDataLoader(args.height, args.width, args.batch_size)
 model_builder = ModelBuilder((args.height, args.width, 1))
 
 trainer = ModelTrainer(data_loader, model_builder)
-# history = trainer.train(epochs=args.epochs)
+history = trainer.train(epochs=args.epochs)
 
-# with open('unet_training_history.pkl', 'wb') as f:
-#     pickle.dump(history.history, f)
+with open('unet_training_history.pkl', 'wb') as f:
+    pickle.dump(history.history, f)

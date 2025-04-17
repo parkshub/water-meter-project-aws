@@ -11,12 +11,8 @@ import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
-
-
 root_dir = os.getcwd()
 
-
-# Build path to 'data/images' and 'data/masks'
 image_folder = os.path.join(root_dir, 'data', 'images')
 mask_folder = os.path.join(root_dir, 'data', 'masks')
 

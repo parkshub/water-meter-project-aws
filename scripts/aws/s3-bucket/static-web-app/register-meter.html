@@ -139,7 +139,7 @@
     const responseMsg = document.getElementById('responseMessage');
 
     try {
-      const response = await fetch("https://gczz4zdf1b.execute-api.us-west-1.amazonaws.com/registerMeter", {
+      const response = await fetch("https://<aws-endpoint>.execute-api.us-west-1.amazonaws.com/registerMeter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
@@ -151,7 +151,7 @@
       document.getElementById("coordinate").value = "";
 
     } catch (error) {
-      responseMsg.innerText = "❌ Error submitting data.";
+      responseMsg.innerText = "Error submitting data.";
       console.error(error);
     }
 
