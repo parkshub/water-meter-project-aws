@@ -13,7 +13,7 @@ data/
 *.keras
 *.pkl
 *.h5
-lr001z1o5e50/
+lr*/
 
 # VSCode settings
 .vscode/

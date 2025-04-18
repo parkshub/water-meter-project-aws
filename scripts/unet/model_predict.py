@@ -1,18 +1,21 @@
 import os
+import cv2
 import numpy as np
 import tensorflow as tf
+from PIL import Image
+import pytesseract
 
 class ModelPredictor:
     def __init__(self, ImageDataLoader, model='keras'):
         self.ImageDataLoader = ImageDataLoader
         self.model = model
-    def predict(self, image_path):
+
+    def predict_unet(self, image_path):
         """Predict the output using the trained model."""
         image = self.ImageDataLoader.preprocess_image(image_path)  # Preprocess the image
-        # return image
         image = tf.expand_dims(image, axis=0)  # Add batch dimension
 
-        model = tf.keras.models.load_model(f'unet_model.{self.model}')  # Load the trained model
+        model = tf.keras.models.load_model(f'unet_model.{self.model}', compile=False)  # Load the trained model
         prediction = model.predict(image)
 
         # Post-process the prediction (e.g., threshold for binary segmentation)
@@ -21,10 +24,40 @@ class ModelPredictor:
         # Squeeze the result to remove unnecessary dimensions
         prediction = prediction.squeeze()  # Remove the batch and channel dimensions
 
-        # Display the result using matplotlib
-
-
         return prediction
+
+    def predict_number(self, prediction, image_path):
+        import cv2
+        import numpy as np
+        import pytesseract
+
+        pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
+
+        # Load original image
+        original_img = cv2.imread(image_path)
+        original_img_rgb = cv2.cvtColor(original_img, cv2.COLOR_BGR2RGB)
+
+        # Resize prediction to match image if needed
+        if prediction.shape != original_img.shape[:2]:
+            prediction = cv2.resize(prediction, (original_img.shape[1], original_img.shape[0]))
+
+        # Binary mask
+        binary_mask = (prediction > 0.5).astype(np.uint8)
+
+        # Apply mask to RGB image
+        masked_img = cv2.bitwise_and(original_img_rgb, original_img_rgb, mask=binary_mask)
+
+        # Convert to grayscale
+        roi_gray = cv2.cvtColor(masked_img, cv2.COLOR_RGB2GRAY)
+
+        # Threshold
+        _, roi_thresh = cv2.threshold(roi_gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+        cv2.imwrite("debug_ocr_input.png", roi_thresh)
+        custom_config = r'-c tessedit_char_whitelist=0123456789 --psm 6'
+        # OCR
+        result = pytesseract.image_to_string(roi_thresh, config=custom_config)
+
+        return result.strip()
 
     def graph_test_result(self, prediction, image_path):
         import matplotlib

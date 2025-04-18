@@ -41,12 +41,19 @@ class ImageDataLoader:
             return image, mask
 
         return image
+    
+    def rotate_90(self, image, mask):
+        k = tf.random.uniform([], minval=0, maxval=4, dtype=tf.int32)  # 0 to 3
+        image = tf.image.rot90(image, k)
+        mask = tf.image.rot90(mask, k)
+        return image, mask
 
     def create_dataset_pipeline(self, image_paths, mask_paths, train_set=True):
         dataset = tf.data.Dataset.from_tensor_slices((image_paths, mask_paths))
         dataset = dataset.map(self.preprocess_image, num_parallel_calls=tf.data.AUTOTUNE)
 
         if train_set:
+            dataset = dataset.map(self.rotate_90, num_parallel_calls=tf.data.AUTOTUNE)
             dataset = dataset.shuffle(len(image_paths)).batch(self.batch_size).prefetch(tf.data.AUTOTUNE)
         else:
             dataset = dataset.batch(self.batch_size).prefetch(tf.data.AUTOTUNE)
