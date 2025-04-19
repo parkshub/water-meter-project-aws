@@ -16,11 +16,20 @@ Right now, the best results so far came from using:
 
 It does pretty well on the training set but falls apart on the test set. Validation loss is comparatively lower, so it's overfitting a bit. I'm currently trying out a combo loss function that combines BCE and Dice, a decaying learning rate, etc., to help with that.
 
+## GIF of Progress
+<!-- https://ezgif.com/maker -->
+<!-- <details> -->
+<!-- <summary>Click to view training GIF</summary> -->
+
+![Model Training GIF](../../assets/learning.gif)
+
+<!-- </details> -->
+
 
 ## Model Architecture
 
-<details>
-<summary>Click to view full model summary</summary>
+<!-- <details> -->
+<!-- <summary>Click to view full model summary</summary> -->
 
 ```txt
 __________________________________________________________________________________________________
@@ -110,14 +119,4 @@ Trainable params: 31116161 (118.70 MB)
 Non-trainable params: 0 (0.00 Byte)
 __________________________________________________________________________________________________
 ```
-</details>
-
-
-## GIF of Progress
-<!-- https://ezgif.com/maker -->
-<details>
-<summary>Click to view training GIF</summary>
-
-![Model Training GIF](../../assets/learning.gif)
-
-</details>
+<!-- </details> -->
