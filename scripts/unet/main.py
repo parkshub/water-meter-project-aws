@@ -17,7 +17,7 @@ if cwd not in sys.path:
 parser = argparse.ArgumentParser(description="Train UNet model")
 parser.add_argument('--height', type=int, default=512, help='Target image height')
 parser.add_argument('--width', type=int, default=512, help='Target image width')
-parser.add_argument('--batch_size', type=int, default=1, help='Batch size')
+parser.add_argument('--batch_size', type=int, default=2, help='Batch size')
 parser.add_argument('--epochs', type=int, default=1, help='Number of epochs')
 parser.add_argument('--lr_rate', type=float, default=0.001, help='Learning Rate')
 parser.add_argument('--zero', type=float, default=1.0, help='Zero Weight')

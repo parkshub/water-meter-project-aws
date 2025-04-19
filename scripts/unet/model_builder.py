@@ -1,8 +1,8 @@
 import tensorflow as tf
 from tensorflow.keras import models
-from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D, Concatenate, Dropout
-from tensorflow.keras.optimizers import Adam
 import tensorflow.keras.backend as K
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D, Concatenate, Dropout
 
 def weighted_binary_crossentropy(y_true, y_pred, zero_weight, one_weight):
     bce = tf.keras.losses.binary_crossentropy(y_true, y_pred)
@@ -123,7 +123,7 @@ class ModelBuilder:
             decay_rate=0.9,
             staircase=True
         )
-        
+
         model.compile(
             optimizer=Adam(learning_rate=lr_schedule),
             loss=combined_segmentation_loss(zero_weight=self.zero_weight, one_weight=self.one_weight),
