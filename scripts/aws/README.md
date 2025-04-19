@@ -1,6 +1,6 @@
 # AWS Project Workflow
 
-This project enables field technicians or users to submit water meter data that is visualized in near real-time on an interactive map. The architecture is built for scalability, automation, and low-latency updates using a modular, serverless approach powered by AWS services.
+This project enables field technicians or users to submit water meter data that is visualized in near real-time on an interactive map. The architecture is built for scalability, automation, and low-latency updates using a modular, serverless approach powered by AWS services [(view live demo of workflow)](https://drive.google.com/file/d/1K_2wGWFdZhw46Fv4g9pNZOPICaVLu2u8/view?usp=sharing).
 
 ## 1. Data Submission
 
@@ -129,5 +129,10 @@ A system will be added to handle maintenance requests. Once a job is completed, 
 ---
 
 ## Exhibit 1. User Flow
+<p align="center">
+  <strong><em>Click the image to view live demo</em></strong><br />
+  <a href="https://drive.google.com/file/d/1K_2wGWFdZhw46Fv4g9pNZOPICaVLu2u8/view?usp=sharing">
+    <img src="../../assets/aws-video-thumb.png" alt="View live demo of workflow" />
+  </a>
+</p>
 
-[View the live workflow demo](https://drive.google.com/file/d/1K_2wGWFdZhw46Fv4g9pNZOPICaVLu2u8/view?usp=sharing)
