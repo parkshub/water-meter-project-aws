@@ -15,25 +15,25 @@ class ModelBuilder:
         self.loss_type = loss_type
         self.lr_decay = lr_decay
 
-        print(
-            f"""
-            ------------------------------
-            shape=({self.input_shape}, 1)
-            learning_rate={self.lr_rate}
-            learning_rate_decay={self.lr_decay}
-            loss_fn={self.loss_type}
-            zero_weight={self.zero_weight}
-            one_weight={self.one_weight}
-            ------------------------------
-            """)
+        # print(
+        #     f"""
+        #     ------------------------------
+        #     shape=({self.input_shape}, 1)
+        #     learning_rate={self.lr_rate}
+        #     learning_rate_decay={self.lr_decay}
+        #     loss_fn={self.loss_type}
+        #     zero_weight={self.zero_weight}
+        #     one_weight={self.one_weight}
+        #     ------------------------------
+        #     """)
 
     def get_loss_function(self):
         if self.loss_type == 'bce':
             return tf.keras.losses.BinaryCrossentropy()
         elif self.loss_type == 'weighted_bce':
-            return self.weighted_binary_crossentropy(self.zero_weight, self.one_weight)
+            return self.weighted_binary_crossentropy()
         elif self.loss_type == 'combo':
-            return self.combined_segmentation_loss(self.zero_weight, self.one_weight)
+            return self.combined_segmentation_loss()
         else:
             raise ValueError(f"Unknown loss type: {self.loss_type}")
         
@@ -55,7 +55,7 @@ class ModelBuilder:
         return tf.reduce_mean(tf.image.total_variation(y_pred))
 
     def combined_segmentation_loss(self):
-        bce_loss_fn = self.weighted_binary_crossentropy(self.zero_weight, self.one_weight)
+        bce_loss_fn = self.weighted_binary_crossentropy()
         def loss(y_true, y_pred):
             bce = bce_loss_fn(y_true, y_pred)
             dice = self.dice_coefficient(y_true, y_pred)
@@ -145,7 +145,7 @@ class ModelBuilder:
         model = models.Model(inputs=inputs, outputs=outputs)
 
         optimizer = self.get_optimizer()
-        loss_fn = self.get_loss_function(self.loss_type)
+        loss_fn = self.get_loss_function()
 
 
         model.compile(

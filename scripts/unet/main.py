@@ -44,6 +44,20 @@ pipeline_config = {
     'aug': args.aug
 }
 
+print(
+    f"""
+    ------------------------------
+    epochs={args.epochs}
+    shape=({model_config.input_shape}, 1)
+    learning_rate={model_config.lr_rate}
+    learning_rate_decay={model_config.lr_decay}
+    loss_fn={model_config.loss_type}
+    zero_weight={model_config.zero_weight}
+    one_weight={model_config.one_weight}
+    augmentation={pipeline_config.aug}
+    ------------------------------
+    """)
+
 data_loader = ImageDataLoader(**pipeline_config)
 
 model_builder = ModelBuilder(**model_config)
