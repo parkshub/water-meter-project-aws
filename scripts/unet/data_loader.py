@@ -7,10 +7,11 @@ matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
 class ImageDataLoader:
-    def __init__(self, target_height, target_width, batch_size):
-        self.target_height = target_height
-        self.target_width = target_width
+    def __init__(self, height, width, batch_size, aug):
+        self.height = height
+        self.width = width
         self.batch_size = batch_size
+        self.aug = aug
         self.grid_rows = 4
         self.grid_cols = 4
         self.image_folder = os.path.join(os.getcwd(), 'data', 'images')
@@ -29,13 +30,13 @@ class ImageDataLoader:
     def preprocess_image(self, image_path, mask_path=None):
         image = tf.io.read_file(image_path)
         image = tf.io.decode_png(image, channels=1)
-        image = tf.image.resize(image, [self.target_height, self.target_width])
+        image = tf.image.resize(image, [self.height, self.width])
         image = tf.cast(image, tf.float32) / 255.0
 
         if mask_path is not None:
             mask = tf.io.read_file(mask_path)
             mask = tf.io.decode_png(mask, channels=1)
-            mask = tf.image.resize(mask, [self.target_height, self.target_width], method='nearest')
+            mask = tf.image.resize(mask, [self.height, self.width], method='nearest')
             mask = tf.cast(mask, tf.float32) / 255.0
 
             return image, mask
@@ -53,7 +54,8 @@ class ImageDataLoader:
         dataset = dataset.map(self.preprocess_image, num_parallel_calls=tf.data.AUTOTUNE)
 
         if train_set:
-            dataset = dataset.map(self.rotate_90, num_parallel_calls=tf.data.AUTOTUNE)
+            if self.aug:
+                dataset = dataset.map(self.rotate_90, num_parallel_calls=tf.data.AUTOTUNE)
             dataset = dataset.shuffle(len(image_paths)).batch(self.batch_size).prefetch(tf.data.AUTOTUNE)
         else:
             dataset = dataset.batch(self.batch_size).prefetch(tf.data.AUTOTUNE)

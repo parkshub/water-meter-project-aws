@@ -4,50 +4,77 @@ import tensorflow.keras.backend as K
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D, Concatenate, Dropout
 
-def weighted_binary_crossentropy(y_true, y_pred, zero_weight, one_weight):
-    bce = tf.keras.losses.binary_crossentropy(y_true, y_pred)
-    weight_vector = y_true * one_weight + (1. - y_true) * zero_weight
-    weight_vector = tf.squeeze(weight_vector, axis=-1)
-    weighted_bce = weight_vector * bce
-    return tf.reduce_mean(weighted_bce)
-
-
-def dice_coefficient(y_true, y_pred, smooth=1):
-    y_true_f = K.flatten(y_true)
-    y_pred_f = K.flatten(y_pred)
-    intersection = K.sum(y_true_f * y_pred_f)
-    return (2. * intersection + smooth) / (K.sum(y_true_f) + K.sum(y_pred_f) + smooth)
-
-def total_variation_loss(y_pred):
-    return tf.reduce_mean(tf.image.total_variation(y_pred))
-
-def combined_segmentation_loss(zero_weight=1.0, one_weight=5.0):
-    def loss(y_true, y_pred):
-        weighted_bce = weighted_binary_crossentropy(y_true, y_pred, zero_weight, one_weight)
-        dice = dice_coefficient(y_true, y_pred)
-        # tv = total_variation_loss(y_pred)
-
-        # return dice + 0.5 * weighted_bce + 0.1 * tv
-        return dice + 0.5 * weighted_bce
-    return loss
-
 
 class ModelBuilder:
-    def __init__(self, input_shape, lr_rate=0.001, zero_weight=1.0, one_weight=5.0):
+    def __init__(self, input_shape, lr_rate=0.001, zero_weight=1.0, one_weight=5.0, loss_type='weighted_bce', lr_decay=False):
         self.input_shape = input_shape
         self.lr_rate = lr_rate
         self.zero_weight = zero_weight
         self.one_weight = one_weight
         self.model = None
+        self.loss_type = loss_type
+        self.lr_decay = lr_decay
+
         print(
             f"""
             ------------------------------
             shape=({self.input_shape}, 1)
             learning_rate={self.lr_rate}
+            learning_rate_decay={self.lr_decay}
+            loss_fn={self.loss_type}
             zero_weight={self.zero_weight}
             one_weight={self.one_weight}
             ------------------------------
             """)
+
+    def get_loss_function(self):
+        if self.loss_type == 'bce':
+            return tf.keras.losses.BinaryCrossentropy()
+        elif self.loss_type == 'weighted_bce':
+            return self.weighted_binary_crossentropy(self.zero_weight, self.one_weight)
+        elif self.loss_type == 'combo':
+            return self.combined_segmentation_loss(self.zero_weight, self.one_weight)
+        else:
+            raise ValueError(f"Unknown loss type: {self.loss_type}")
+        
+    def weighted_binary_crossentropy(self):
+        def loss(y_true, y_pred):
+            bce = tf.keras.losses.binary_crossentropy(y_true, y_pred)
+            weights = y_true * self.one_weight + (1.0 - y_true) * self.zero_weight
+            bce = bce * tf.squeeze(weights, axis=-1) if len(weights.shape) == 4 else bce * weights
+            return tf.reduce_mean(bce)
+        return loss
+
+    def dice_coefficient(self, y_true, y_pred, smooth=1):
+        y_true_f = K.flatten(y_true)
+        y_pred_f = K.flatten(y_pred)
+        intersection = K.sum(y_true_f * y_pred_f)
+        return (2. * intersection + smooth) / (K.sum(y_true_f) + K.sum(y_pred_f) + smooth)
+
+    def total_variation_loss(self, y_pred):
+        return tf.reduce_mean(tf.image.total_variation(y_pred))
+
+    def combined_segmentation_loss(self):
+        bce_loss_fn = self.weighted_binary_crossentropy(self.zero_weight, self.one_weight)
+        def loss(y_true, y_pred):
+            bce = bce_loss_fn(y_true, y_pred)
+            dice = self.dice_coefficient(y_true, y_pred)
+            return dice + 0.5 * bce
+        return loss
+    
+    def get_optimizer(self):
+        if self.lr_decay:
+            lr = tf.keras.optimizers.schedules.ExponentialDecay(
+                initial_learning_rate=self.lr_rate,
+                decay_steps=10 * 100,
+                decay_rate=0.9,
+                staircase=True
+            )
+        else:
+            lr = self.lr_rate
+
+        return Adam(learning_rate=lr)
+
 
     def buildEncoder(self):
         skip_connections = []
@@ -55,7 +82,7 @@ class ModelBuilder:
 
         x = Conv2D(64, (3, 3), activation='relu', padding='same')(inputs)
         x = Conv2D(64, (3, 3), activation='relu', padding='same')(x)
-        x = Dropout(0.1)(x)
+        # x = Dropout(0.1)(x)
         skip_connections.append(x)
         x = MaxPooling2D(pool_size=(2, 2))(x)
 
@@ -117,17 +144,14 @@ class ModelBuilder:
         outputs = self.buildDecoder(x, skip_connections)
         model = models.Model(inputs=inputs, outputs=outputs)
 
-        lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
-            initial_learning_rate=self.lr_rate,
-            decay_steps=10 * 100,
-            decay_rate=0.9,
-            staircase=True
-        )
+        optimizer = self.get_optimizer()
+        loss_fn = self.get_loss_function(self.loss_type)
+
 
         model.compile(
-            optimizer=Adam(learning_rate=lr_schedule),
-            loss=combined_segmentation_loss(zero_weight=self.zero_weight, one_weight=self.one_weight),
-            metrics=[dice_coefficient],
+            optimizer=optimizer,
+            loss=loss_fn,
+            metrics=[self.dice_coefficient],
         )
 
         self.model = model

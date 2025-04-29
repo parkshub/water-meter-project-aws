@@ -19,13 +19,35 @@ parser.add_argument('--height', type=int, default=512, help='Target image height
 parser.add_argument('--width', type=int, default=512, help='Target image width')
 parser.add_argument('--batch_size', type=int, default=2, help='Batch size')
 parser.add_argument('--epochs', type=int, default=1, help='Number of epochs')
-parser.add_argument('--lr_rate', type=float, default=0.001, help='Learning Rate')
-parser.add_argument('--zero', type=float, default=1.0, help='Zero Weight')
-parser.add_argument('--one', type=float, default=5.0, help='One Weight')
+parser.add_argument('--lr_rate', type=float, default=0.001, help='Learning rate')
+parser.add_argument('--zero', type=float, default=1.0, help='Zero weight')
+parser.add_argument('--one', type=float, default=5.0, help='One weight')
+parser.add_argument('--loss', type=str, choices=['bce', 'weighted_bce', 'combo'], default='weighted_bce', help='Loss function (bce, weighted_bce, combo)')
+parser.add_argument('--lr_decay', action='store_true', help='Enable learning rate decay')
+parser.add_argument('--aug', action='store_true', help='Enable data augmentation')
+
 args = parser.parse_args()
 
-data_loader = ImageDataLoader(args.height, args.width, args.batch_size)
-model_builder = ModelBuilder((args.height, args.width, 1), args.lr_rate, args.zero, args.one)
+model_config = {
+    'input_shape': (args.height, args.width, 1),
+    'lr_rate': args.lr_rate,
+    'zero_weight': args.zero,
+    'one_weight': args.one,
+    'loss_type': args.loss,
+    'lr_decay': args.lr_decay,
+}
+
+pipeline_config = {
+    'height': args.height, 
+    'width': args.width, 
+    'batch_size': args.batch_size,
+    'aug': args.aug
+}
+
+data_loader = ImageDataLoader(**pipeline_config)
+
+model_builder = ModelBuilder(**model_config)
+
 trainer = ModelTrainer(data_loader, model_builder)
 history = trainer.train(epochs=args.epochs)
 
