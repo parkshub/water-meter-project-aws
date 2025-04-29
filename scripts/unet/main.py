@@ -59,9 +59,7 @@ print(
     """)
 
 data_loader = ImageDataLoader(**pipeline_config)
-
 model_builder = ModelBuilder(**model_config)
-
 trainer = ModelTrainer(data_loader, model_builder)
 history = trainer.train(epochs=args.epochs)
 

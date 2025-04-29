@@ -15,18 +15,6 @@ class ModelBuilder:
         self.loss_type = loss_type
         self.lr_decay = lr_decay
 
-        # print(
-        #     f"""
-        #     ------------------------------
-        #     shape=({self.input_shape}, 1)
-        #     learning_rate={self.lr_rate}
-        #     learning_rate_decay={self.lr_decay}
-        #     loss_fn={self.loss_type}
-        #     zero_weight={self.zero_weight}
-        #     one_weight={self.one_weight}
-        #     ------------------------------
-        #     """)
-
     def get_loss_function(self):
         if self.loss_type == 'bce':
             return tf.keras.losses.BinaryCrossentropy()
@@ -76,7 +64,7 @@ class ModelBuilder:
         return Adam(learning_rate=lr)
 
 
-    def buildEncoder(self):
+    def build_encoder(self):
         skip_connections = []
         inputs = Input(shape=self.input_shape)
 
@@ -103,7 +91,7 @@ class ModelBuilder:
 
         return x, skip_connections, inputs
 
-    def buildBottleneck(self, x):
+    def build_bottleneck(self, x):
         x = Conv2D(1024, (3, 3), activation='relu', padding='same')(x)
         x = Conv2D(1024, (3, 3), activation='relu', padding='same')(x)
         # x = Dropout(0.1)(x)
@@ -113,7 +101,7 @@ class ModelBuilder:
 
         return x
 
-    def buildDecoder(self, x, skip_connections):
+    def build_decoder(self, x, skip_connections):
         x = Concatenate()([x, skip_connections[3]])
         x = Conv2D(512, (3, 3), activation='relu', padding='same')(x)
         x = Conv2D(512, (3, 3), activation='relu', padding='same')(x)
@@ -137,16 +125,15 @@ class ModelBuilder:
 
         return x
 
-    def compileModel(self):
+    def compile_model(self):
 
-        x, skip_connections, inputs = self.buildEncoder()
-        x = self.buildBottleneck(x)
-        outputs = self.buildDecoder(x, skip_connections)
+        x, skip_connections, inputs = self.build_encoder()
+        x = self.build_bottleneck(x)
+        outputs = self.build_decoder(x, skip_connections)
         model = models.Model(inputs=inputs, outputs=outputs)
 
         optimizer = self.get_optimizer()
         loss_fn = self.get_loss_function()
-
 
         model.compile(
             optimizer=optimizer,
